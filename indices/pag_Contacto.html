@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html lang=es>
+	<head>
+		<meta charset="utf-8">
+		<meta name="generator" content="Bloc de notas">
+		<meta name="author" content="Aldrin B Guzmán Figueroa, Ignacio Guarner Sala">
+		<meta name="keywords" content="HTML5, web, encyclopedia">
+		<meta name="description" content="Primera pagina para practicar y aprender sobre HTML5">
+		<title>MedConect:Enciclopedia médica - Contacto</title>
+	</head>
+	<body>
+		<header>
+			<a href=../index.html><img src=../imagenes/logo.png alt="logotipo, caduceo de Mercurio con un corazón en la empuñadura" width="200" height="120" title="logotipo"></a>
+			<h1>MedConect</h1>
+		</header>
+		<nav>
+			<a href="https://www.ua.es/">Sobre la UA</a>
+			<a href=../index.html>Inicio</a>
+		</nav>
+		<main>
+			<h1>Contáctanos</h1>
+			<p>Rellena el siguiente formulario para contactarnos. Los mensajes serán recibidos por los administradores.</p>
+			<p>*El asunto y el mensaje son campos obligatorios.</p>
+			<!--form es el formulario que utilizará el usuario para enviar sus mensajes. El atributo target especifica si la
+			página de respuesta se abrirá en una pestaña distinta o en la misma tal y como esta puesto ahora-->
+			<!--El enlace es temporal solo muestra la informacion que mandaria la pagina. Si deseas ver lo que envia la pagina sustituye el enlace de Respuesta por este(https://httpbin.org/get).-->
+			<form action="paginaCont_Respuesta.html" target="_self">
+				<fieldset>
+					<legend>Formulario</legend>
+					<label for="subject">*Asunto: </label>
+					<input type="text" id="subject" name="asunto" placeholder="Escriba aquí su asunto" required autofocus>
+					
+					<p>*Escriba su mensaje: </p>
+					<textarea name="message" rows="10" cols="30" placeholder="Ejemplo de mensaje" required></textarea>
+					<!--Preguntar si se puede utilizar P como salto de linea temporal. Preguntar por el uso de DIV-->
+					<p><!--Preguntar por las etiquetas descriptivas-->
+					  <label for="sele">Yo soy:</label>
+					  <select id="sele" name="selec">
+						<option value="paciente" selected>Paciente</option>
+						<option value="cientifico">Científico</option>
+						<option value="medico">Médico</option>
+						<option value="educador">Educador</option>
+						<option value="fabricante">Fabricante</option>
+						<option value="periodista">Periodista</option>
+					  </select>
+					</p>
+				  
+					<label for="birthday">Fecha de nacimiento:</label>
+					<input type="date" id="birthday" name="fec_nac">				
+				  
+					<p>Sexo:
+					<input type="radio" id="hombre" name="sexo" value="Hombre">
+					<label for="hombre">Hombre</label>
+					<input type="radio" id="mujer" name="sexo" value="Mujer">
+					<label for="mujer">Mujer</label>
+					<input type="radio" id="otro" name="sexo" value="Otro">
+					<label for="otro">Otro</label></p>
+				  
+					<p>
+						<label for="email">Correo electrónico:</label>
+						<input type="email" id="email" name="correo" placeholder="correoejemplo@mail.com">
+					</p>
+				  
+					<input type="checkbox" id="verification" name="verific" value="deseo recibir mas informacion" checked>
+					<label for="verification">Deseo recibir más información.</label>
+					<p><input type="submit" value="Enviar"></p>
+					
+				</fieldset>
+			<!--El asunto es REQUERIDO por lo que es un campo obligatorio-->
+			  
+			</form>
+			<!--Preguntar por las leyendas-->
+			
+			<p>Todos los datos personales se guardarán en un plazo máximo de 30 días. Luego del límite serán borrados de nuestros servidores cumpliendo con las leyes de protección de datos española.</p>
+			<p>Para saber más sobre la ley de protección de datos pinche <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673">AQUÍ</a>.</p>
+		</main>
+		<footer>
+			<p>Página creada por: Ignacio Guarner Sala y Aldrin B Guzmán Figueroa</p>
+			<P>Todos los derechos reservados.©MedConect 2023-2024</P>
+			<p><a href=../indices/paginaAccesibilidad.html>Accesibilidad</a></p>
+		</footer>
+	</body>
+
+</html>
