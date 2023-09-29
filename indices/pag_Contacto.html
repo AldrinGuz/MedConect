@@ -22,7 +22,7 @@
 		<main>
 			<h1>Contáctanos</h1>
 			<p>Rellena el siguiente formulario para contactarnos. Los mensajes serán recibidos por los administradores.</p>
-			<p>*El asunto y el mensaje son campos obligatorios.</p>
+			<p>Los campos obligatorios se muestran con (*).</p>
 			<!--form es el formulario que utilizará el usuario para enviar sus mensajes. El atributo target especifica si la
 			página de respuesta se abrirá en una pestaña distinta o en la misma tal y como esta puesto ahora-->
 			<!--El enlace es temporal solo muestra la informacion que mandaria la pagina. Si deseas ver lo que envia la pagina sustituye el enlace de Respuesta por este(https://httpbin.org/get).-->
@@ -32,8 +32,8 @@
 					<label for="subject">*Asunto: </label>
 					<input type="text" id="subject" name="asunto" placeholder="Escriba aquí su asunto" required autofocus>
 					
-					<p>*Escriba su mensaje: </p>
-					<textarea name="message" rows="10" cols="30" placeholder="Ejemplo de mensaje" required></textarea>
+					<p><label for="textarea">*Escriba su mensaje: </label></p>
+					<textarea id="textarea" name="message" rows="10" cols="30" placeholder="Ejemplo de mensaje" required></textarea>
 					
 					<p><!--Preguntar por las etiquetas descriptivas-->
 					  <label for="sele">Yo soy:</label>
@@ -55,7 +55,7 @@
 					<label for="hombre">Hombre</label>
 					<input type="radio" id="mujer" name="sexo" value="Mujer">
 					<label for="mujer">Mujer</label>
-					<input type="radio" id="otro" name="sexo" value="Otro">
+					<input type="radio" id="otro" name="sexo" value="Otro" checked>
 					<label for="otro">Otro</label></p>
 				  
 					<p>
