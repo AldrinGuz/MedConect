@@ -20,8 +20,8 @@
 			<a href=../indices/pag_Buscador.html>Buscador</a>
 		</nav>
 		<main>
-			<h1>Contáctanos</h1>
-			<p>Rellena el siguiente formulario para contactarnos. Los mensajes serán recibidos por los administradores.</p>
+			<h1>Encuesta</h1>
+			<p>Rellena la siguiente encuesta para atyudarnos a mejorar nuestra pagina web</p>
 			<p>Los campos obligatorios se muestran con (*).</p>
 			<!--form es el formulario que utilizará el usuario para enviar sus mensajes. El atributo target especifica si la
 			página de respuesta se abrirá en una pestaña distinta o en la misma tal y como esta puesto ahora-->
@@ -29,49 +29,44 @@
 			<form action="pag_Cont_Respuesta.html" target="_self">
 				<fieldset>
 					<legend>Formulario</legend>
-					<label for="subject">*Asunto: </label>
-					<input type="text" id="subject" name="asunto" placeholder="Escriba aquí su asunto" required autofocus>
 					
-					<p><label for="textarea">*Escriba su mensaje: </label></p>
-					<textarea id="textarea" name="message" rows="10" cols="30" placeholder="Ejemplo de mensaje" required></textarea>
-					
-					<p><!--Preguntar por las etiquetas descriptivas-->
-					  <label for="sele">Yo soy:</label>
-					  <select id="sele" name="selec">
-						<option value="paciente" selected>Paciente</option>
-						<option value="cientifico">Científico</option>
-						<option value="medico">Médico</option>
-						<option value="educador">Educador</option>
-						<option value="fabricante">Fabricante</option>
-						<option value="periodista">Periodista</option>
-					  </select>
+					<p>
+						<label for="birthday">*Fecha de nacimiento:</label>
+						<input type="date" id="birthday" name="fec_nac" required>	
 					</p>
-				  
-					<label for="birthday">Fecha de nacimiento:</label>
-					<input type="date" id="birthday" name="fec_nac">				
-				  
-					<p>Sexo:
-					<input type="radio" id="hombre" name="sexo" value="Hombre">
-					<label for="hombre">Hombre</label>
-					<input type="radio" id="mujer" name="sexo" value="Mujer">
-					<label for="mujer">Mujer</label>
-					<input type="radio" id="otro" name="sexo" value="Otro" checked>
-					<label for="otro">Otro</label></p>
+
+					<p>
+						<label for="edad">*Introduce tu edad:</label>
+						<input type="numer" id="edad" name="edad" min="18" max="99" required>
+					</p>
+					
+					<p>
+						<label for="prueba">*Realice una pequeña prueba de cognicidad. Intruzca un numero positivo par:</label>
+						<input type="numer" id="prueba" name="prueba" min="18" max="99" step="2" required>
+					</p>
+					
+					<p>
+						<label for="email">*Correo electrónico:</label>
+						<input type="email" id="email" name="correo" placeholder="correoejemplo@mail.com" required>
+					</p>
 				  
 					<p>
-						<label for="email">Correo electrónico:</label>
-						<input type="email" id="email" name="correo" placeholder="correoejemplo@mail.com">
+						<label for="colorfav">Elige tu color favorito:</label> 
+						<input type="color" id="colorfav" name="colorfav">
 					</p>
-				  
-					<input type="checkbox" id="verification" name="verific" value="deseo recibir mas informacion" checked>
-					<label for="verification">Deseo recibir más información.</label>
+
+					<p>
+						<label for="satisfaccion">*Introduzca tu nivel de satisfaccion:</label> 
+						<input type="range" id="satisfaccion" name="satisfaccion" required>
+					</p>
+
 					<p><input type="submit" value="Enviar"></p>
 					
 				</fieldset>
 			  
 			</form>
 			
-			<p>Todos los datos personales se guardarán en un plazo máximo de 30 días. Luego del límite serán borrados de nuestros servidores cumpliendo con las leyes de protección de datos española.</p>
+			<p>Muchas gracias por su colaboracion. Recibira un email con nuestro agradecidiento en los siguientes 10 minutos</p>
 			<p>Para saber más sobre la ley de protección de datos pinche <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673">AQUÍ</a>.</p>
 		</main>
 		<aside>
