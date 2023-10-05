@@ -27,19 +27,25 @@
 			<form action="pag_BusquedaNoEncontrada.html" target="_self">
 				<fieldset>
 					<legend>Busqueda</legend>
-					<p><label for="description">Descripcion: </label>
-				  <input type="search" id="description" name="descripcion" autofocus></p>
-				  <p><label for="cause">Causas: </label>
-				  <input type="search" id="cause" name="causas"></p>
-				  <p><label for="symptom">Sintomas: </label>
-				  <input type="search" id="symptom" name="sintomas"></p>
-				  <p><label for="prubeExams">Pruebas y examenes: </label>
-				  <input type="search" id="prubeExams" name="pruebas y examenes"></p>
-				  <p><label for="treatment">Tratamientos: </label>
-				  <input type="search" id="treatment" name="tratamientos"></p>
-				  <p><label for="expectations">Expectativas: </label>
-				  <input type="search" id="expectations" name="expectativas"></p>
-				  <p><input type="submit" value="Buscar"></p>
+
+					<p>
+						<label for="selec1"></label>
+						<select name="selec1" id="select1">
+						  <option value="paciente" selected>Paciente</option>
+						  <option value="cientifico">Científico</option>
+						  <option value="medico">Médico</option>
+						  <option value="educador">Educador</option>
+						  <option value="fabricante">Fabricante</option>
+						  <option value="periodista">Periodista</option>
+						</select>
+						<input type="text" name="select1" id="select1">
+						<select name="selec1" id="select1">
+							<option value="y" selected>Y</option>
+							<option value="o">O</option>
+							<option value="no">NO</option>
+						  </select>
+					  </p>
+					
 				</fieldset>
 			</form>
 		</main>
