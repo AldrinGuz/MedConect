@@ -47,7 +47,7 @@
 					
 					<p>
 						<label for="email">*Correo electrónico:</label>
-						<input type="email" id="email" name="correo" placeholder="correoejemplo@mail.com" required>
+						<input type="email" id="email" name="correo" pattern="[a-z0-9_]{4,}@[a-z0-9]+\.[a-z]{2,}" title="El formato sigue el siguiente formato: Primero al menos cinco caracteres sean números, letras, barras bajas. Luego un arroba y el tipo de correo (hotmal, gmail,...). No admite caracteres especiales"" placeholder="correoejemplo@mail.com" required>
 					</p>
 				  
 					<p>
