@@ -7,6 +7,17 @@
 		<meta name="author" content="Aldrin B Guzmán Figueroa, Ignacio Guarner Sala">
 		<meta name="keywords" content="HTML5, web, encyclopedia">
 		<meta name="description" content="Primera pagina para practicar y aprender sobre HTML5">
+		<script>
+			addEventListener('load',inicio,false);
+			function inicio()
+				{
+				document.getElementById('satisfaccion').addEventListener('change',cambioMedida,false);
+			}
+			function cambioMedida()
+				{    
+				document.getElementById('pas').innerHTML=document.getElementById('satisfaccion').value;
+			}
+		</script>
 		<title>MedConect:Enciclopedia médica - Encuesta</title>
 	</head>
 	<body>
@@ -57,7 +68,8 @@
 
 					<p>
 						<label for="satisfaccion">Introduzca tu nivel de satisfaccion:</label> 
-						<input type="range" id="satisfaccion" name="satisfaccion">
+						<input type="range" id="satisfaccion" name="satisfaccion" min="0" max="100" step="10" list="tickmarks">
+						<span id="pas">50</span>
 					</p>
 
 					<p><input type="submit" value="Enviar"></p>
