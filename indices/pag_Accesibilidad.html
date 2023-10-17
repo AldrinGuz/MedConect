@@ -11,7 +11,7 @@
 		<title>Accesibilidad - Enciclopedia médica | MedConect</title>
 	</head>
 	<body>
-		<header>
+		<header><!--Cabecera-->
 			<a href="../index.html"><img src="../imagenes/logo.png" alt="logotipo, caduceo de Mercurio con un corazón en la empuñadura. Pulse en la imagen para volver a inicio." width="200" height="120" title="Volver a inicio"></a>
 			<h1>MedConect</h1>
 		</header>
@@ -22,7 +22,7 @@
 			<a href="pag_OtrosMet.html" title="Ir a buscar con otros métodos">Otros métodos</a>
 		</nav>
 		<nav><p>Estas en:</p><a href="../index.html" title="Volver a inicio">Página principal</a> / Accesibilidad</nav>
-		<main>
+		<main><!--Cuerpo de la página-->
 			<article>
 				<h2>Accesibilidad</h2>
 				<section>
@@ -31,30 +31,32 @@
 				</section>
 				<section>
 					<h3>Declaración de accesibilidad</h3>
-					<p>Medclinic se ha comprometido a hacer accesibles sus sitios web, de conformidad con el <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-12699" title="Redirección al Real Decreto 1112/2018, de 7 de septiembre">Real Decreto 1112/2018, de 7 de septiembre</a>, sobre accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público.</p>
+					<p>Medclinic se ha comprometido a hacer accesibles sus sitios web, de conformidad con el <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2018-12699" title="Redirección al Real Decreto 1112/2018, de 7 de septiembre">Real Decreto
+					1112/2018, de 7 de septiembre</a>, sobre accesibilidad de los sitios web y aplicaciones para dispositivos móviles del sector público.</p>
 					<p>La presente declaración de accesibilidad se aplica a los sitios web del dominio https://aldringuz.github.io/MedConect</p>
 				</section>
 				<section>
 					<h3>Situacion de cumplimiento</h3>
-					<p>Este sitio web es parcialmente conforme con el nivel AA de las Pautas de Accesibilidad para el contenido Web en su versión 2.1, debido a las excepciones y a la falta de conformidad de los aspectos que se indican a continuación.</p>
+					<p>Este sitio web es parcialmente conforme con el nivel AA de las Pautas de Accesibilidad para el Contenido Web en su versión 2.1, debido a las excepciones y a la falta de conformidad de los aspectos que se indican a continuación.</p>
 				</section>
 				<section>
 					<h3>Contenido no accesible</h3>
 					<p>El contenido que se recoge a continuación no es accesible por lo siguiente:</p>
 					<ul>
 						<li>
-							<p>Falta de conformidad con Real Decreto 1112/2018</p>
-							<ul><li><p>Debido a las actualizaciones y nuevo contenido publicado por la <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> no podemos garantizar su completa implementación. No obstante, nos comprometemos a la actualización periódica de la web.</p></li></ul>
+							<h4>Falta de conformidad con Real Decreto 1112/2018</h4>
+							<ul><li><p>Debido a las actualizaciones y nuevo contenido publicado por la <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> no podemos garantizar su completa implementación.
+							No obstante, nos comprometemos a la actualización periódica de la web.</p></li></ul>
 							<ul><li><p>Actualmente no se ha implementado métodos de abreviación de teclado por lo que no se cumple con el Nivel A 2.1.4 de accesibilidad.</p></li></ul>
 							<ul><li><p>No se ha implementado bloques de derivación en todas las páginas incumpliendo con el Nivel A 2.4.1 por lo que no se podrán evitar el contenido repetitivo.</p></li></ul>
 							
 						</li>
 						<li>
-							<p>Carga desproporcionada</p>
+							<h4>Carga desproporcionada</h4>
 							<ul><li><p>No se aplica.</p></li></ul>
 						</li>
 						<li>
-							<p>El contenido no entra dentro del ámbito de legislación aplicable</p>
+							<h4>El contenido no entra dentro del ámbito de legislación aplicable</h4>
 							<ul><li><p>Existen técnicas de etiquetado HTML5 que no sean compatibles con el navegador.</p></li></ul>
 						</li>
 					</ul>
@@ -62,8 +64,38 @@
 				<section>
 					<h3>Preparación de la presente declaración de accesibilidad</h3>
 					<p>La presente declaración fue preparada el 14 de Octubre de 2023.</p>
-					<p>El mñetodo empleado para preparar la declaración ha sido una autoevaluación llevada a cabo por el propio organismo.</p>
-					<p>Última revisión de la declaración: hoy.</p>
+					<p>Para ello se ha trabajado sobre la base de los requisitos de Prioridad 1 y Prioridad 2 de la Norma UNE 139803:2012 Requisitos de Accesibilidad para contenidos en la web, que se corresponde con el nivel de conformidad AA (Doble-A) de las
+					pautas internacionales de WCAG 2.1 definidas por el Consorcio para la World Wide Web (<abbr title="World Wide Web">W3C</abbr>).</p>
+					<p>Se ha realizado una comprobación mediante herramientas semiautomáticas y una auditoría manual del cumplimiento de los requisitos aplicables a este nivel Doble-A, estando actualmente trabajando en la resolución de algunos problemas identificados.</p>
+					<p>Entre las ventajas que aporta la implantación de las técnicas y criterios de accesibilidad a los usuarios del sitio web, están las siguientes:</p>
+					<ul>
+						<li>
+							<h4>Identificación del idioma principal de la página.</h4>
+							<p>Uso de "lang" para la correcta identificación del idioma de la página. El valor del atributo lang se rige por el documento BCP47 de la IETF y debe ser una cadena que contenga un identificador de idioma según los estándares ISO 639-1 e
+							ISO 639-2. Asistentes de navegación, como los lectores de pantalla que utilizan sintetizadores de voz o los traductores Braille, podrán reproducir el contenido escrito en otro formato que pueda ser utilizado por el usuario. Además, el asistente
+							de navegación conocerá el idioma en el que está escrito el texto, o, en el caso de elementos editables, el idioma en el que el usuario debería introducir el contenido</p>
+						</li>
+						<li>
+							<h4>Etiquetado semántico de la página.</h4>
+							<p>Los contenidos se presentan estructurados y más claros, facilitando su interpretación mediante la jerarquización del contenido, utilizado el marcado estructural y semántico adecuado para la información y las relaciones existentes entre
+							el contenido. También, proporciona información adicional a los buscadores sobre la funcionalidad e importancia de las secciones de las páginas.</p>
+						</li>
+						<li>
+							<h4>Texto alternativo de las imágenes.</h4>
+							<p>Existen alternativas textuales (etiqueta "alt") al contenido no textual, como lo son las imágenes, brindando así información a los software de lectura que utilizan los usuarios con discapacidad visual. También Ofrece una descripción
+							de la imagen cuando una página no carga correctamente.</p>
+						</li>
+						<li>
+							<h4>Mecanismos de navegación implementados.</h4>
+							<p>Se dotado de mecanismos de navegación a todas las páginas, a continuación se describen algunos. Se ha incluido el mecanismo conocido como Migas de pan, que indican al usuario la ruta seguida a dicha página desde la página principal. 
+							Siempre podrá encontrarse un Mapa de sitio, un listado en el que se incluye todas las páginas del sitio web. Buscador, permitirá a los usuarios encontrar artículos sin llegar a la recursividad de una busqueda manual.</p>
+						</li>
+						<li>
+							<h4>Características de accesibilidad implementadas.</h4>
+							<p>Facilitar el acceso de los usuarios e independientemente de sus capacidades, entorno, o infraestructura tecnológica.</p>
+						</li>
+					</ul>
+					<p>Última revisión de la declaración: 17 de Octubre de 2023.</p>
 				</section>
 				<section>
 					<h3>Observaciones y datos del contacto</h3>
@@ -72,13 +104,15 @@
 				</section>
 				<section>
 					<h3>Procedimiento de la aplicación</h3>
-					<p>Si una vez realizada una solicitud de información accesible o queja, ésta hubiera sido desestimada, no se estuviera de acuerdo con la decisión adoptada, o la respuesta no cumpliera los requisitos contemplados en el artículo 12.5, la persona interesada podrá iniciar una reclamación. Igualmente se podrá iniciar una reclamación en el caso de que haya transcurrido el plazo de veinte días hábiles sin haber obtenido respuesta.</p>
-					<p>La reclamación puede ser presentada través de nuestro <a href="pag_Contacto.html" title="Pincha aqui para contactarnos">formulario de contacto</a>, así como en el resto de opciones recogidas en la Ley 39/ 2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas</p>
+					<p>Si una vez realizada una solicitud de información accesible o queja, ésta hubiera sido desestimada, no se estuviera de acuerdo con la decisión adoptada, o la respuesta no cumpliera los requisitos contemplados en el artículo
+					12.5, la persona interesada podrá iniciar una reclamación. Igualmente se podrá iniciar una reclamación en el caso de que haya transcurrido el plazo de veinte días hábiles sin haber obtenido respuesta.</p>
+					<p>La reclamación puede ser presentada través de nuestro <a href="pag_Contacto.html" title="Pincha aqui para contactarnos">formulario de contacto</a>, así como en el resto de opciones recogidas en la Ley 39/ 2015, de 1 de octubre, del Procedimiento
+					Administrativo Común de las Administraciones Públicas</p>
 					<p>Las reclamaciones serán recibidas y tratadas por la Unidad Responsable de Accesibilidad de MedConect.</p>
 				</section>
 				<section>
-				<h3>Contenido opcional</h3>
-				<p>El horario de atención es de lunes a viernes de 08.00 a 19.00 horas, y en agosto de 08.00 a 16.00 hores, excepte los dias festivos de ámbito nacional, festivos de la Comunitat Valenciana, y los dias 24 y 31 de diciembre. </p>
+					<h3>Contenido opcional</h3>
+					<p>El horario de atención es de lunes a viernes de 08.00 a 19.00 horas, y en agosto de 08.00 a 16.00 hores, excepte los dias festivos de ámbito nacional, festivos de la Comunitat Valenciana, y los dias 24 y 31 de diciembre. </p>
 				</section>
 				<a href="../index.html" title="Volver a inicio">Volver a la página principal</a>
 			</article>
@@ -86,7 +120,7 @@
 		<aside>
 			<p>¿Tienes dudas? Contactanos.</p>
 			<p>Puedes <a href="pag_Contacto.html" title="Pincha aqui para contactarnos">enviar tu mensaje</a> desde nuestra página. O a nuestro correo electrónico.</p>
-			<p>abgf3@alu.ua.es</p>
+			<a href="mailto:abgf3@alu.ua.es" title="Se abrirá su aplicación de correos con nuestro e-mail como destinatario">abgf3@alu.ua.es</a>
 			<p>¿Quieres ayudarnos? <a href="../indices/pag_Encuesta.html" title="Pincha aqui para participar en nuestra encuesta">Participa en nuestra encuesta</a> y colabora con nosotros</p>
 		</aside>
 		<footer>
