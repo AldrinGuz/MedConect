@@ -1,4 +1,5 @@
 /*Mantened un orden. Sobre todo para no tener que volvernos locos.
+  SIEMPRE tener separado @ALGO.
   SIEMPRE que se trate de una CLASE de una etiqueta colocar esta DEBAJO de la propia etiqueta.
   Para las etiquetas que tienen etiqutes dentro lo mismo.
   SIEMPRE que sea una ID, será única y específica, colocar al FINAL; de ser posible en orden alfabético.
@@ -40,23 +41,58 @@ nav.mig_pan a{
 main{
 	margin-left: 50px;
 	margin-right: 50px;
+	margin-bottom: 20px;
 }
+nav{
+	
+}
+main nav.bar_nav ul{
+	list-style-type: none;
+	padding-inline-start: 0px;
+	/*float:left;*/
+	
+}
+main nav.bar_nav ul li{
+	width:45px;
+	padding: 4px;
+	margin: 2px;
+	border : 1px solid black;
+	/*float:left;*/
+	text-align: center;
+	display: inline;
+}
+main nav.bar_nav ul li a{
+	line-height: 2px;
+	text-decoration: none;
+}
+/*--------*/
+
+/*--------*/
+
 main article.art_des{
 	border: 1px solid black;
-	padding: 10px;
-	text-align: justify;
+	padding: 5px;
+	bottom: 5px;
+}
+main article.clearfix::after{
+	content: "";
+	clear: both;
+	display: table;
 }
 main article.art_des section{
 	border: 1px solid black;
 	padding: 5px;
-	text-align: justify;
+	width: 49%;
+	float: left;
+	margin: 5px;
 }
+
 aside{
 	background-color: #f1f1f1;
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-bottom: 20px;
-	padding-top: 20px;	
+	padding-top: 20px;
 }
 footer{
 	color: #FFFFFF;
@@ -71,7 +107,7 @@ footer a{
 	color: #FFFFFF;
 }
 footer a:visited{
-	color: grey;
+	color: #BABABA;
 }
 footer a:hover{
 	background-color: #ddd;
@@ -94,4 +130,11 @@ p{
 	margin: 10px;
 	border-radius: 0 0 100px 100px;
 	padding: 10px;
+}
+
+/*---------------------------------*/
+@media screen and (max-width:1200px){
+	main article.art_des section{
+	width: auto;
+}
 }
