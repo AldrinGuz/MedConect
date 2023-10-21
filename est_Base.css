@@ -1,35 +1,97 @@
+/*Mantened un orden. Sobre todo para no tener que volvernos locos.
+  SIEMPRE que se trate de una CLASE de una etiqueta colocar esta DEBAJO de la propia etiqueta.
+  Para las etiquetas que tienen etiqutes dentro lo mismo.
+  SIEMPRE que sea una ID, será única y específica, colocar al FINAL; de ser posible en orden alfabético.
+  Ej:
+  Caso 1
+	footer{...}
+	footer a{...}
+ */
+* {
+  box-sizing: border-box;
+}
+
+/*HTML es la capa base*/
 html{
 	background: #FFDD99;
 }
+/*Body es la capa por encima, lo mimso que una capa 3*/
 body{
 	background: #FFFFFF;
-	margin-left:50px;
-	margin-right:50px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	border-radius: 20px;
 }
+/*Header, main, nav, footer, asides y demás serán, entonces, la capa 2*/
 header{
-	margin-left:50px;
-	margin-right:50px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 nav.mig_pan{
-	margin-left:50px;
-	margin-right:50px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+nav.mig_pan a{
+	/*border: 1px solid #555;
+	text-align: center;*/
 }
 main{
-	margin-left:50px;
-	margin-right:50px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+main article.art_des{
+	border: 1px solid black;
+	padding: 10px;
+	text-align: justify;
+}
+main article.art_des section{
+	border: 1px solid black;
+	padding: 5px;
+	text-align: justify;
 }
 aside{
-	margin-left:50px;
-	margin-right:50px;
+	background-color: #f1f1f1;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	padding-top: 20px;	
 }
 footer{
-	margin-left:50px;
-	margin-right:50px;
+	color: #FFFFFF;
+	background: #0C008F;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	border-radius: 0 0 20px 20px;
 }
+footer a{
+	color: #FFFFFF;
+}
+footer a:visited{
+	color: grey;
+}
+footer a:hover{
+	background-color: #ddd;
+	color: black;
+	font-size:150%;/*Aumenta el tamaño del enlace al pasar el cursor por encima*/
+}
+/*El resto serán las capas 1 y 0*/
 h1{
 	color: #2A1B50;
 	
-	margin-right:950px;
+	margin-right: 950px;
 	font-family: Garamond, serif;
 	border-bottom: solid red;
+}
+p{
+	font-family: Trebuchet MS, sans-serif;
+}
+#logotipo{
+	background-color: #33cc33;
+	margin: 10px;
+	border-radius: 0 0 100px 100px;
+	padding: 10px;
 }
