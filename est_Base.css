@@ -49,25 +49,25 @@ nav{
 main nav.bar_nav ul{
 	list-style-type: none;
 	padding-inline-start: 0px;
-	/*float:left;*/
+	text-align: center;
 	
 }
 main nav.bar_nav ul li{
-	width:45px;
-	padding: 4px;
-	margin: 2px;
-	border : 1px solid black;
-	/*float:left;*/
-	text-align: center;
 	display: inline;
+	background-color: #333;
 }
 main nav.bar_nav ul li a{
-	line-height: 2px;
+	padding: 0px 15px 0px 15px;
 	text-decoration: none;
+	font-size: 20px;
+	background-color: #0C008F;;
+	color: white;
 }
-/*--------*/
-
-/*--------*/
+main nav.bar_nav ul li a:hover{
+	background-color: white;
+	color:black;
+	font-size:200%;/*--Preguntar si esto no es un problema para una persona dicapacitada--*/
+}
 
 main article.art_des{
 	border: 1px solid black;
