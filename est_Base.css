@@ -6,150 +6,168 @@
   Ej:
   Caso 1
 	footer{...}
-	footer a{...}
+	footer.algo{...}
  */
 * {
-  box-sizing: border-box;
+  
 }
 
 /*HTML es la capa base*/
 html{
-	background: #FFDD99;
+	background-color: var(--fondo1, white);
 }
 /*Body es la capa por encima, lo mimso que una capa 3*/
 body{
-	background: #FFFFFF;
+	background: var(--fondo5, white );
+	color: var(--color4, black);
 	margin: 2em;
-	border-radius: 20px;
+	border-radius: 1.25em;
 }
 /*Header, main, nav, footer, asides y demás serán, entonces, la capa 2*/
+header, main, aside, footer{
+	padding:0.4em 4em 0.4em 4em;
+}
 header{
-	margin-left: 50px;
-	margin-right: 50px;
-}
-header nav.bar_nav{
+	background-color: var(--fondo2, aquamarine);
+	color: var(--color5, white);
+	border-radius: 1.25em 1.25em 0 0;
 	display: flex;
-	justify-content: flex-start;
 	flex-wrap: wrap;
+	justify-content: flex-start;
 }
-header nav.bar_nav a{
-	margin: 0px;
-	padding: 5px;
-	text-decoration: none;
-	background-color: #f1f1f1;
-}
-nav.mig_pan{
-	margin-left: 50px;
-	margin-right: 50px;
-}
-nav.mig_pan a{
-	/*border: 1px solid #555;
-	text-align: center;*/
-}
-main{
-	margin-left: 50px;
-	margin-right: 50px;
-	margin-bottom: 20px;
-}
-main nav.bar_tem ul{
-	list-style-type: none;
-	padding-inline-start: 0px;
+header h1{
+	font-size: 3em;
+	width: 50%;
 	text-align: center;
-	
 }
-main nav.bar_tem ul li{
-	display: inline;
-	background-color: #333;
+
+nav.mig_pan{
+	padding: 0 4em;
 }
-main nav.bar_tem ul li a{
-	padding: 0px 15px 0px 15px;
+nav.bar_nav{
+	width: 100%;
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+nav.bar_nav a{
 	text-decoration: none;
-	font-size: 20px;
-	background-color: #0C008F;
-	color: white;
+	color:var(--color2, white);
+	font-size:larger;
+	padding: 1em 2em 1em 2em;
+    margin-left: auto;
+    margin-right: auto;
 }
-main nav.bar_tem ul li a:hover{
+nav.bar_nav a:hover{
 	background-color: white;
 	color:black;
-	font-size:200%;/*--Preguntar si esto no es un problema para una persona dicapacitada--*/
+	border-radius: 3em;
+	/*font-size:larger;*/
 }
-
-main article.art_des{
-	border: 1px solid black;
-	padding: 2em;
-	bottom: 1em;
+/**/
+nav.bar_tem ul{
+	list-style-type: none;
+    padding-inline-start: 0px;
+    text-align: center;
 }
-main article.clearfix::after{
-	content: "";
-	clear: both;
-	display: table;
+nav.bar_tem ul li{
+	display: inline;
 }
-main article.art_des section{
-	border: 1px solid black;
-	padding: 1em;
-	width: 47%;
-	float: left;
-	margin: 1em;
+nav.bar_tem ul li a{
+	padding: 0 0.938em 0 0.938em;
+    text-decoration: none;
+    font-size: 1.25em;
+    background: var(--fondo4, navy);
+    color: white;
+	line-height: 2em;
 }
-
-/*main article.art_des{
-	display: flex;
-	justify-content: space-evenly;
-	flex-wrap: wrap;
-}*/
+nav.bar_tem ul li a:hover{
+	background-color: white;
+	color:black;
+	/*font-size:larger;*/
+}
+main{
+	background-color: var(--fondo5, white);
+	padding-bottom: 1em;
+	padding-top:1em;
+}
+main > p{
+	text-align: center;
+}
 aside{
-	background-color: #f1f1f1;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-bottom: 20px;
-	padding-top: 20px;
+	
+	background-color: var(--fondo3, silver);
 }
 footer{
-	color: #FFFFFF;
-	background: #0C008F;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-bottom: 1px;
-	padding-top: 1px;
-	border-radius: 0 0 20px 20px;
+	
+	background-color: var(--fondo4, navy);
+	color: var(--color5, white);
+	border-radius: 0 0 1.25em 1.25em;
 }
 footer a{
-	color: #E1FF00;
+	color: var(--color5, white);
 	text-decoration: none;
 }
-
 footer a:visited{
-	color: #E1FF00;
+	color: var(--color6, yellow);
 
 }
 footer a:hover{
-	background-color: #ddd;
-	color: black;
-	font-size:150%;/*Aumenta el tamaño del enlace al pasar el cursor por encima*/
+	background-color: var(--color6, azure);
+	color: var(--color4, black);
+	font-size:large;/*Aumenta el tamaño del enlace al pasar el cursor por encima*/
 }
 /*El resto serán las capas 1 y 0*/
 h1{
-	color: #2A1B50;
-	margin-right: 75%;
-	font-family: Garamond, serif;
-	border-bottom: solid red;
 }
-p{
-	font-family: Trebuchet MS, sans-serif;
+p{}
+a{}
+a.actual{
+	font-weight:bold;
+	text-decoration:underline;
+}
+article.art_des.clearfix {
+	margin: 0 -3em;
+    padding: 0 1em;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: space-between;
+}
+article.art_des h3{
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+section.sec_1, section.sec_2{
+	width:49%;
+	
+}
+section.sec_1{
+	border-right: 1px solid black;
 }
 #logotipo{
-	background-color: #33cc33;
-	margin: ;
-	border-radius: 0 0 100px 100px;
-	padding: 10px;
+	margin-top: 1em;
 }
 /*@media y demás serán para modificar la web en funcion las pantallas*/
 @media screen and (max-width:1200px){
-	main article.art_des section{
-	width: auto;
-}
-}
-/*---------------------------------*/
-@media screen(max-width: 500px<){
 	
 }
+/*---------------------------------*/
+@media screen(max-width: 570px<){
+	
+}
+/*----Colores----*/
+:root {
+	--fondo1: #FFDD99;
+	--fondo2: #11c5df;
+	--fondo3: #f1f1f1;
+	--fondo4: #0C008F;
+	--fondo5: white;
+	--color1: #E1FF00;
+	--color2: #2A1B50;
+	--color3: #ddd;
+	--color4: black;
+	--color5: white;
+	--color6: #ddd;
+}
+
