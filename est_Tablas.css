@@ -1,0 +1,68 @@
+/*Mantened un orden. Sobre todo para no tener que volvernos locos.
+  SIEMPRE tener separado @ALGO.
+  SIEMPRE que se trate de una CLASE de una etiqueta colocar esta DEBAJO de la propia etiqueta.
+  Para las etiquetas que tienen etiqutes dentro lo mismo.
+  SIEMPRE que sea una ID, será única y específica, colocar al FINAL; de ser posible en orden alfabético.
+  Ej:
+  Caso 1
+	footer{...}
+	footer a{...}
+ */
+
+th, td {
+  padding: 5px;
+}
+
+table, tr, th, td {
+  border-collapse: collapse;
+  border: 3px solid cyan;
+}
+   
+thead th, tfoot th, caption {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+caption {
+  font-variant: small-caps;
+}
+
+table {
+  background-color: #33ccff;
+}
+
+thead, tfoot {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+thead th, tfoot th, tfoot td {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #33ccff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #c7f2ff;
+}
+
+tbody tr:hover {
+  background-color: white;
+}
