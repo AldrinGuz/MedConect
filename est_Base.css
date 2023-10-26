@@ -19,16 +19,24 @@ html{
 /*Body es la capa por encima, lo mimso que una capa 3*/
 body{
 	background: #FFFFFF;
-	margin-left: 40px;
-	margin-right: 40px;
-	margin-bottom: 30px;
-	margin-top: 30px;
+	margin: 2em;
 	border-radius: 20px;
 }
 /*Header, main, nav, footer, asides y demás serán, entonces, la capa 2*/
 header{
 	margin-left: 50px;
 	margin-right: 50px;
+}
+header nav.bar_nav{
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+header nav.bar_nav a{
+	margin: 0px;
+	padding: 5px;
+	text-decoration: none;
+	background-color: #f1f1f1;
 }
 nav.mig_pan{
 	margin-left: 50px;
@@ -43,27 +51,24 @@ main{
 	margin-right: 50px;
 	margin-bottom: 20px;
 }
-nav{
-	
-}
-main nav.bar_nav ul{
+main nav.bar_tem ul{
 	list-style-type: none;
 	padding-inline-start: 0px;
 	text-align: center;
 	
 }
-main nav.bar_nav ul li{
+main nav.bar_tem ul li{
 	display: inline;
 	background-color: #333;
 }
-main nav.bar_nav ul li a{
+main nav.bar_tem ul li a{
 	padding: 0px 15px 0px 15px;
 	text-decoration: none;
 	font-size: 20px;
-	background-color: #0C008F;;
+	background-color: #0C008F;
 	color: white;
 }
-main nav.bar_nav ul li a:hover{
+main nav.bar_tem ul li a:hover{
 	background-color: white;
 	color:black;
 	font-size:200%;/*--Preguntar si esto no es un problema para una persona dicapacitada--*/
@@ -71,8 +76,8 @@ main nav.bar_nav ul li a:hover{
 
 main article.art_des{
 	border: 1px solid black;
-	padding: 5px;
-	bottom: 5px;
+	padding: 2em;
+	bottom: 1em;
 }
 main article.clearfix::after{
 	content: "";
@@ -81,12 +86,17 @@ main article.clearfix::after{
 }
 main article.art_des section{
 	border: 1px solid black;
-	padding: 5px;
-	width: 49%;
+	padding: 1em;
+	width: 47%;
 	float: left;
-	margin: 5px;
+	margin: 1em;
 }
 
+/*main article.art_des{
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}*/
 aside{
 	background-color: #f1f1f1;
 	padding-left: 50px;
@@ -117,8 +127,7 @@ footer a:hover{
 /*El resto serán las capas 1 y 0*/
 h1{
 	color: #2A1B50;
-	
-	margin-right: 950px;
+	margin-right: 75%;
 	font-family: Garamond, serif;
 	border-bottom: solid red;
 }
@@ -127,14 +136,17 @@ p{
 }
 #logotipo{
 	background-color: #33cc33;
-	margin: 10px;
+	margin: ;
 	border-radius: 0 0 100px 100px;
 	padding: 10px;
 }
-
-/*---------------------------------*/
+/*@media y demás serán para modificar la web en funcion las pantallas*/
 @media screen and (max-width:1200px){
 	main article.art_des section{
 	width: auto;
 }
+}
+/*---------------------------------*/
+@media screen(max-width: 500px<){
+	
 }
