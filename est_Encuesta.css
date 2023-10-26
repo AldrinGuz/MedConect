@@ -1,0 +1,15 @@
+/*Mantened un orden. Sobre todo para no tener que volvernos locos.
+  SIEMPRE tener separado @ALGO.
+  SIEMPRE que se trate de una CLASE de una etiqueta colocar esta DEBAJO de la propia etiqueta.
+  Para las etiquetas que tienen etiqutes dentro lo mismo.
+  SIEMPRE que sea una ID, será única y específica, colocar al FINAL; de ser posible en orden alfabético.
+  Ej:
+  Caso 1
+	footer{...}
+	footer a{...}
+ */
+
+label{
+	font-family:'Times New Roman', Times, serif;
+	font-size: 120%;
+}
