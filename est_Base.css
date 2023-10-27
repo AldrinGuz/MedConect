@@ -36,7 +36,7 @@ header{
 	justify-content: flex-start;
 }
 header h1{
-	font-size: 3em;
+	font-size: 10vw;
 	width: 50%;
 	text-align: center;
 }
@@ -144,6 +144,10 @@ section.sec_1, section.sec_2{
 }
 section.sec_1{
 	border-right: 1px solid black;
+}
+section.sec_1 figure img{
+	width: 100%;
+	height: auto;
 }
 #logotipo{
 	margin-top: 1em;
