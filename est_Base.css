@@ -166,7 +166,21 @@ section.sec_1 figure img{
 }
 /*---------------------------------*/
 @media screen and (max-width: 570px){
-	
+	nav.bar_nav{
+		display: block;
+		overflow: hidden;
+		position: relative;
+	}
+	nav.bar_nav a{
+		display: none;
+	}
+	.topnav a.icon {
+		background: black;
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
 }
 /*----Colores----*/
 :root {
