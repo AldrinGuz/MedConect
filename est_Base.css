@@ -52,7 +52,7 @@ nav.bar_nav{
 
 nav.bar_nav a{
 	text-decoration: none;
-	color:var(--color2, white);
+	color:var(--color3, white);
 	font-size:larger;
 	padding: 1em 2em 1em 2em;
     margin-left: auto;
@@ -166,21 +166,7 @@ section.sec_1 figure img{
 }
 /*---------------------------------*/
 @media screen and (max-width: 570px){
-	nav.bar_nav{
-		display: block;
-		overflow: hidden;
-		position: relative;
-	}
-	nav.bar_nav a{
-		display: none;
-	}
-	.topnav a.icon {
-		background: black;
-		display: block;
-		position: absolute;
-		right: 0;
-		top: 0;
-	}
+	
 }
 /*----Colores----*/
 :root {
