@@ -142,6 +142,9 @@ section.sec_1, section.sec_2{
 	width:49%;
 	
 }
+section.sec_1 p, section.sec_2 p{
+	padding: 0.5em;;
+}
 section.sec_1{
 	border-right: 1px solid black;
 }
