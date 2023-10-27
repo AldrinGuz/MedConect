@@ -148,12 +148,17 @@ section.sec_1{
 #logotipo{
 	margin-top: 1em;
 }
+#logotipo img{
+	width: 100%;
+    max-width: 200px;
+    height: auto;
+}
 /*@media y demás serán para modificar la web en funcion las pantallas*/
 @media screen and (max-width:1200px){
 	
 }
 /*---------------------------------*/
-@media screen(max-width: 570px<){
+@media screen and (max-width: 570px){
 	
 }
 /*----Colores----*/
