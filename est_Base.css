@@ -50,6 +50,9 @@ nav.bar_nav{
 	justify-content: space-between;
 	background: var(--fondo6, blue);
 }
+a.icon{
+	visibility:hidden;
+}
 
 nav.bar_nav a{
 	text-decoration: none;
@@ -92,9 +95,6 @@ main{
 	padding-bottom: 1em;
 	padding-top:1em;
 }
-main > p{
-	text-align: center;
-}
 aside{
 	
 	background-color: var(--fondo3, silver);
@@ -123,7 +123,7 @@ a.actual{
 	font-weight:bold;
 	text-decoration:underline;
 }
-article.art_des.clearfix {
+article.art_des {
 	margin: 0 -3em;
     padding: 0 1em;
     border: 1px solid black;
@@ -145,9 +145,10 @@ section.sec_1 p, section.sec_2 p{
 section.sec_1{
 	border-right: 1px solid black;
 }
-section.sec_1 figure img{
+section figure img{
 	width: 100%;
 	height: auto;
+	max-width: 400px;
 }
 #logotipo{
 	margin-top: 1em;
@@ -167,8 +168,39 @@ section.sec_1 figure img{
 	}
 }
 /*---------------------------------*/
-@media screen and (max-width: 570px){
-	
+@media screen and (max-width: 600px){
+	html{
+		background: black;
+	}
+	body{
+		margin: 0.2em;
+	}
+	header, nav, main, aside, footer{
+		padding-left:1em;
+		padding-right:1em;
+	}
+	header{
+		flex-wrap: nowrap;
+		justify-content: flex-start;
+		flex-direction: column;
+	}
+	header nav.bar_nav{
+		display: none;
+	}
+	article.art_des{
+		margin: 0;
+	}
+	nav.mig_pan{
+		padding:0 1em;
+	}
+	a.icon{
+		visibility: revert;
+	}
+	iframe, img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+	}
 }
 /*----Colores----*/
 :root {
