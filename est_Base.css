@@ -166,12 +166,13 @@ section figure img{
 	section.sec_1{
 		border-right:none;
 	}
+	nav.bar_nav{
+		display:inline-flex;
+	}
 }
 /*---------------------------------*/
 @media screen and (max-width: 600px){
-	html{
-		background: black;
-	}
+	
 	body{
 		margin: 0.2em;
 	}
@@ -186,6 +187,10 @@ section figure img{
 	}
 	header nav.bar_nav{
 		display: none;
+		padding: 0;
+	}
+	nav.bar_nav a{
+		display: block;
 	}
 	article.art_des{
 		margin: 0;
@@ -194,6 +199,10 @@ section figure img{
 		padding:0 1em;
 	}
 	a.icon{
+		visibility: revert;
+		margin-bottom:1em;
+	}
+	a.icon:hover{
 		visibility: revert;
 	}
 	iframe, img {
