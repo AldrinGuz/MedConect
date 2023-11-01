@@ -14,13 +14,13 @@
  body{
 	margin:0.2em;
 	background: var(--fondo5, white );
-	color: var(--color4, black);
+	color: var(--color1, black);
 	border-radius: 1.25em;
 }
 header{
 	border-radius: 1.25em 1.25em 0 0;
-	background-color: var(--fondo2, aquamarine);
-	color: var(--color5, white);
+	background-color: var(--fondo2, navy);
+	color: var(--color2, white);
 	padding-left:1em;
 	padding-right:1em;
 	/*position: fixed;*/
@@ -36,26 +36,26 @@ header{
 header h1 {
     margin: auto;
     font-size: 10vw;
-    width: 50%;
+    width: 70%;
     text-align: center;
 }
 .bar_nav{
 	overflow: hidden;
-	background: var(--fondo6, blue);
+	background: var(--fondo6, aqua);
 	border-radius: 2em 2em 0 0;
 }
 .bar_nav a{
 	display: block;
 	text-decoration: none;
-    color: var(--color7, white);
+    color: var(--color1, white);
     font-size: larger;
     padding: 1em 2em 1em 2em;
     margin-left: auto;
     margin-right: auto;
 }
 nav.bar_nav a:hover{
-	background-color: white;
-    color: black;
+	background-color: var(--fondo5,white);
+    color: var(--color1,black);
     border-radius: 3em;
     /* font-size: larger; */
 }
@@ -81,12 +81,13 @@ nav.bar_nav a:hover{
 	transition: max-height .2s ease-out;
 }
 .menu-icon{
+	background-color:var(--fondo6,aqua);
 	/*width: 100%;Preguntar a Nacho*/
 	margin: auto;
 	cursor: pointer;
 	display: inline-block;
 	float: right;
-	/*padding: 28px 20px;*/
+	padding: 3vw;
 	position: relative;
 	user-select: none;
 }
@@ -195,19 +196,19 @@ aside{
 footer{
 	padding: 0.4em 1em 0.4em 1em;
 	background-color: var(--fondo4, navy);
-    color: var(--color5, white);
+    color: var(--color2, white);
     border-radius: 0 0 1.25em 1.25em;
 }
 footer a{
-	color: var(--color5, white);
+	color: var(--color2, white);
 	text-decoration: none;
 }
 footer a:visited{
-	color: var(--color6, yellow);
+	color: var(--color3, yellow);
 }
 footer a:hover{
-	background-color: var(--color6, azure);
-    color: var(--color4, black);
+	background-color: var(--color3, azure);
+    color: var(--color1, black);
     font-size: large;
 }
 main a{
@@ -215,6 +216,12 @@ main a{
 }
 
 /*---------------------------------*/
+@media (min-width: 250px) {
+	header h1{
+		width: 50%;
+		font-size:9vw;
+	}
+}
 @media (min-width: 630px) {
 	body{
 		margin: 2em;
@@ -231,6 +238,9 @@ main a{
 	}
 	header h1 {
     font-size: 7vw;
+	}
+	.menu-icon{
+		padding: unset;
 	}
 	.bar_nav a {
 	float: left;
@@ -284,17 +294,13 @@ main a{
 /*----Colores----*/
 :root {
 	--fondo1: #FFDD99;
-	--fondo2: #11c5df;
-	--fondo3: #f1f1f1;
-	--fondo4: #0C008F;
+	--fondo2: #2962FF;
+	--fondo3: #B0B0B0;
+	--fondo4: #1A57FF;
 	--fondo5: white;
-	--fondo6: #6ad4e3;
-	--color1: #E1FF00;
-	--color2: #2A1B50;
-	--color3: #ddd;
-	--color4: black;
-	--color5: white;
-	--color6: #eee;
-	--color7: #0c5b0e;
+	--fondo6: #4275FF;
+	--color1: black;
+	--color2: white;
+	--color3: yellow;
 }
 
