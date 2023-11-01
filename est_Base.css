@@ -82,10 +82,11 @@ nav.bar_nav a:hover{
 }
 .menu-icon{
 	/*width: 100%;Preguntar a Nacho*/
+	margin: auto;
 	cursor: pointer;
 	display: inline-block;
 	float: right;
-	padding: 28px 20px;
+	/*padding: 28px 20px;*/
 	position: relative;
 	user-select: none;
 }
