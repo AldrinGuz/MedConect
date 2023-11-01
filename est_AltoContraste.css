@@ -305,29 +305,15 @@ main a{
     height: auto;
 	}
 }
-@media (prefers-contrast: more) {
-	body{
+/*----Colores----*/
+ :root {
 	--fondo1: #FFDD99;
 	--fondo2: #0030B3;
 	--fondo3: #E6E6E6;
-	--fondo4: #0024B3;
+	--fondo4: #042DD2;
 	--fondo5: white;
 	--fondo6: #52BDFF;
 	--color1: black;
 	--color2: white;
 	--color3: yellow;
-	}
 }
-/*----Colores----*/
-:root {
-	--fondo1: #FFDD99;
-	--fondo2: #2962FF;
-	--fondo3: #BDBDBD;
-	--fondo4: #1A57FF;
-	--fondo5: #F0FBFF;
-	--fondo6: #4275FF;
-	--color1: black;
-	--color2: white;
-	--color3: yellow;
-}
-
