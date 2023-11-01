@@ -277,6 +277,16 @@ main a{
 	border-right: 1px solid black;
 	}
 }
+@media (min-width: 1200px) {
+	body{
+		font-size:x-large;
+	}
+}
+@media (min-width: 2000px) {
+	body{
+		font-size:xxx-large;
+	}
+}
 @media screen and (max-width: 630px){
 	iframe, img {
     max-width: 300px;
@@ -295,7 +305,7 @@ main a{
 :root {
 	--fondo1: #FFDD99;
 	--fondo2: #2962FF;
-	--fondo3: #B0B0B0;
+	--fondo3: #BDBDBD;
 	--fondo4: #1A57FF;
 	--fondo5: white;
 	--fondo6: #4275FF;
