@@ -244,7 +244,7 @@ main a{
 	padding: 0 4em;
 	}
 	header h1 {
-    font-size: 7vw;
+    font-size: 5vw;
     color: var(--color4);
  }
 	.menu-icon{
@@ -287,17 +287,14 @@ main a{
 }
 @media (min-width: 990px) {
 	body{
-		font-size:large;
 	}
 }
 @media (min-width: 1400px) {
 	body{
-		font-size:x-large;
 	}
 }
 @media (min-width: 2000px) {
 	body{
-		font-size:xxx-large;
 	}
 }
 @media screen and (max-width: 630px){
