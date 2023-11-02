@@ -14,6 +14,7 @@
 		<link rel="stylesheet" href="est_Base.css" title="Default Style"/>
 		<link href="est_AltoContraste.css" rel="alternate stylesheet" title="Alto contraste" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 		<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 	</head>
 	<body>
@@ -32,10 +33,14 @@
 			</nav>
 		</header>
 		<div class="botones">
-			<p>Modo alto contraste</p>
+			<input type="checkbox" id="toggle-checkbox" class="toggle-checkbox">
+			<label for="toggle-checkbox" class="toggle-label">
+				<span class="material-symbols-outlined">
+					settings
+				</span>
+			</label>
 			<div class="toggle">
-				<input type="checkbox" id="toggle-checkbox" class="toggle-checkbox">
-				<label for="toggle-checkbox" class="toggle-label"></label>
+				<p>Modo alto contraste</p>
 			</div>
 		</div>
 		

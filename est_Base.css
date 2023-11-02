@@ -335,16 +335,25 @@ main a{
 
 /*-Menos de 80 caracteres con unidad ch-*/
 
- .toggle {
-	position: fixed;
+ .toggle-label{
+	/*position: fixed;
 	display: inline-block;
 	width: 60px;
 	height: 30px;
 	background-color: #8eeb60;
 	border-radius: 40px;
 	position: relative;
-	overflow: hidden;
+	overflow: hidden;*/
+	background-color: #1a57ff;
+    border-radius: 0 2em 2em 0;
+    width: 2em;
+    cursor: pointer;
+    display: block;
+    padding: 1vw;
+    user-select: none;
+    margin: -0.2em;
  }
+ /*
  .toggle input[type="checkbox"] {
 	display: none;
  }
@@ -369,13 +378,13 @@ main a{
  .toggle-checkbox:checked+.toggle-label:before {
 	transform: translateX(35px);
  }
-
+*/
  .botones{
 	position:fixed;
-	left:0;
-	font-size: smaller;
+	/*left:0;*/
+	/*font-size: smaller;*/
  }
-
+/*
  .botones p{
 	opacity: 0;
  }
@@ -390,3 +399,20 @@ main a{
  .botones:not(:hover) p{
 	transition-duration: 1s;
  }
+.toggle-checkbox{
+	display:none;
+}*/
+.toggle p{
+	overflow: hidden;
+	width: 100%;
+	clear: both;
+	max-height: 0;
+	background-color:var(--fondo6, blue);
+}
+input#toggle-checkbox{
+	visibility:hidden;
+}
+input#toggle-checkbox:checked ~ .toggle p{
+  max-height: 240px;
+  width: 100%;
+}
