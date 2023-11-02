@@ -218,7 +218,7 @@ main a{
 @media (min-width: 250px) {
 	header h1{
 		width: 50%;
-		font-size:8vw;
+		font-size:9vw;
 	}
 }
 @media (min-width: 630px) {
@@ -305,93 +305,15 @@ main a{
     height: auto;
 	}
 }
-@media (prefers-contrast: more) {
-	body{
+/*----Colores----*/
+ :root {
 	--fondo1: #FFDD99;
-	--fondo2: #0003CF;
-	--fondo3: white;
-	--fondo4: #0000FF;
+	--fondo2: #0030B3;
+	--fondo3: #E6E6E6;
+	--fondo4: #042DD2;
 	--fondo5: white;
-	--fondo6: #38DFFF;
-	--color1: black;
-	--color2: white;
-	--color3: FFFF00;
-	}
-}
-/*----Colores y tipografia----*/
-
-:root {
-	font-family: "Atkinson Hyperlegible", verdana, sans-serif;
-	--fondo1: #FFDD99;
-	--fondo2: #2962FF;
-	--fondo3: #BDBDBD;
-	--fondo4: #1A57FF;
-	--fondo5: #F0FBFF;
-	--fondo6: #4275FF;
+	--fondo6: #52BDFF;
 	--color1: black;
 	--color2: white;
 	--color3: yellow;
 }
-
-<<<<<<< HEAD
-/*-Menos de 80 caracteres con unidad ch-*/
-=======
- .toggle {
-	position: fixed;
-	display: inline-block;
-	width: 60px;
-	height: 30px;
-	background-color: #8eeb60;
-	border-radius: 40px;
-	position: relative;
-	overflow: hidden;
- }
- .toggle input[type="checkbox"] {
-	display: none;
- }
- .toggle-label {
-	display: block;
-	overflow: hidden;
-	cursor: pointer;
-	border-radius: 34px;
- }
- .toggle-label:before {
-	content: "";
-	display: block;
-	width: 100%;
-	height: 100%;
-	background-color: red;
-	border-radius: 34px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	transition: all 0.25s ease-in-out;
- }
- .toggle-checkbox:checked+.toggle-label:before {
-	transform: translateX(35px);
- }
-
- .botones{
-	position:fixed;
-	left:0;
-	font-size: smaller;
- }
-
- .botones p{
-	opacity: 0;
- }
-
- .botones:hover p{
-	opacity: 1;
-	transition-duration: 1s;
-	background-color: var(--color3, azure);
-    color: var(--color1, black);
- }
-
- .botones:not(:hover) p{
-	transition-duration: 1s;
- }
- 
- 
-
->>>>>>> f01f41e339ff8ece72c6a1c00491123b0789d14d
