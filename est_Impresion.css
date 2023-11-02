@@ -6,6 +6,9 @@
 	widows:3;
     orphans:3;
 }
+body {
+  background-image: none;
+}
 table, tr, th, td {
   border: 3px solid black;
 }
