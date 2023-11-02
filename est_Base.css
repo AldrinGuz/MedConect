@@ -333,9 +333,8 @@ main a{
 	--color3: yellow;
 }
 
-<<<<<<< HEAD
 /*-Menos de 80 caracteres con unidad ch-*/
-=======
+
  .toggle {
 	position: fixed;
 	display: inline-block;
@@ -391,7 +390,3 @@ main a{
  .botones:not(:hover) p{
 	transition-duration: 1s;
  }
- 
- 
-
->>>>>>> f01f41e339ff8ece72c6a1c00491123b0789d14d
