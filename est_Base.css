@@ -218,7 +218,7 @@ main a{
 @media (min-width: 250px) {
 	header h1{
 		width: 50%;
-		font-size:9vw;
+		font-size:8vw;
 	}
 }
 @media (min-width: 630px) {
@@ -308,18 +308,20 @@ main a{
 @media (prefers-contrast: more) {
 	body{
 	--fondo1: #FFDD99;
-	--fondo2: #0030B3;
-	--fondo3: #E6E6E6;
-	--fondo4: #0024B3;
+	--fondo2: #0003CF;
+	--fondo3: white;
+	--fondo4: #0000FF;
 	--fondo5: white;
-	--fondo6: #52BDFF;
+	--fondo6: #38DFFF;
 	--color1: black;
 	--color2: white;
-	--color3: yellow;
+	--color3: FFFF00;
 	}
 }
-/*----Colores----*/
+/*----Colores y tipografia----*/
+
 :root {
+	font-family: "Atkinson Hyperlegible", verdana, sans-serif;
 	--fondo1: #FFDD99;
 	--fondo2: #2962FF;
 	--fondo3: #BDBDBD;
@@ -331,3 +333,4 @@ main a{
 	--color3: yellow;
 }
 
+/*-Menos de 80 caracteres con unidad ch-*/
