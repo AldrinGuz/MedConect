@@ -366,26 +366,4 @@ main a{
 	transform: translateX(35px);
  }
 
- .botones{
-	position:fixed;
-	left:0;
-	font-size: smaller;
- }
-
- .botones p{
-	opacity: 0;
- }
-
- .botones:hover p{
-	opacity: 1;
-	transition-duration: 1s;
-	background-color: var(--color3, azure);
-    color: var(--color1, black);
- }
-
- .botones:not(:hover) p{
-	transition-duration: 1s;
- }
- 
- 
 
