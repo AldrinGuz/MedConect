@@ -1,0 +1,12 @@
+.bar_nav, .botones, .bar_tem{
+	display:none;
+}
+a{
+	color: black !important;
+}
+p{
+	color: black !important;
+}
+#video{
+	display: none;
+}
