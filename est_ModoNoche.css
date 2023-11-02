@@ -337,7 +337,7 @@ main a{
 	--color3: #000000;
 --color4: white;
 }
-
+/*
  .toggle {
 	position: fixed;
 	display: inline-block;
@@ -371,6 +371,6 @@ main a{
  }
  .toggle-checkbox:checked+.toggle-label:before {
 	transform: translateX(35px);
- }
+ }*/
 
 

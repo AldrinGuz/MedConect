@@ -27,6 +27,7 @@
 		<link href="../est_AltoContraste.css" rel="alternate stylesheet" title="Alto contraste" />
 		<link href="../est_LetraGrande.css" rel="alternate stylesheet" title="Letra grande" />
 		<link href="../est_LetraGrandeAltoContraste.css" rel="alternate stylesheet" title="Alto contraste y letra grande" />
+		<link href="../est_Impresion.css" rel="stylesheet" type="text/css" media="print" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
@@ -52,32 +53,32 @@
 			<!--form es el formulario que utilizará el usuario para enviar sus mensajes. El atributo target especifica si la
 			página de respuesta se abrirá en una pestaña distinta o en la misma tal y como esta puesto ahora-->
 			<!--El enlace es temporal solo muestra la informacion que mandaria la pagina. Si deseas ver lo que envia la pagina sustituye el enlace de Respuesta por este(https://httpbin.org/get).-->
-			<form action="pag_Cont_Encuesta.html" target="_self">
+			<form action="pag_Cont_Encuesta.html" target="_self" id="encuesta">
 				<fieldset>
 					<legend>Formulario</legend>
 					
 					<p>
-						<label for="birthday">&#128197;	*Fecha de nacimiento:</label>
+						<label for="birthday"><i>&#128197;</i>	*Fecha de nacimiento:</label>
 						<input type="date" id="birthday" name="fec_nac" required>	
 					</p>
 
 					<p>
-						<label for="edad">&#129485; *Introduce tu edad:</label>
+						<label for="edad"><i>&#129485;</i> *Introduce tu edad:</label>
 						<input type="number" id="edad" name="edad" min="18" max="99" required>
 					</p>
 					
 					<p>
-						<label for="prueba">&#129504; *Realice una pequeña prueba de cognicidad. Intruzca un numero positivo par:</label>
+						<label for="prueba"><i>&#129504;</i> *Realice una pequeña prueba de cognicidad. Intruzca un numero positivo par:</label>
 						<input type="number" id="prueba" name="prueba" min="0" max="99" step="2" required>
 					</p>
 					
 					<p>
-						<label for="email">&#9993; *Correo electrónico:</label>
+						<label for="email"><i>&#9993;</i> *Correo electrónico:</label>
 						<input type="email" id="email" name="correo" pattern="[a-z0-9_]{4,}@[a-z0-9]+\.[a-z]{2,}" title="El formato sigue el siguiente formato: Primero al menos cinco caracteres sean números, letras, barras bajas. Luego un arroba y el tipo de correo (hotmal, gmail,...). No admite caracteres especiales" placeholder="correoejemplo@mail.com" required>
 					</p>
 				  
 					<p>
-						<label for="colorfav">🎨 Elige tu color favorito:</label> 
+						<label for="colorfav"><i>🎨</i> Elige tu color favorito:</label> 
 						<input type="color" id="colorfav" name="colorfav">
 					</p>
 
@@ -104,8 +105,8 @@
 		<footer>
 			<p>Página creada por: Ignacio Guarner Sala y Aldrin B Guzmán Figueroa</p>
 			<P>Todos los derechos reservados.©MedConect 2023-2024</P>
-			<p><a href="pag_Accesibilidad.html" title="Pincha aqui para dirigirte a accesibidad">&#9855; Accesibilidad</a></p>
-			<p><a href="pag_Mapa.html" title="Pincha aqui para dirigirte a Mapa del sitio">🗺️ Mapa del sitio</a></p>
+			<p><a href="pag_Accesibilidad.html" title="Pincha aqui para dirigirte a accesibidad"><i>&#9855;</i> Accesibilidad</a></p>
+			<p><a href="pag_Mapa.html" title="Pincha aqui para dirigirte a Mapa del sitio"><i>🗺️</i> Mapa del sitio</a></p>
 		</footer>
 	</body>
 

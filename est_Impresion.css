@@ -1,12 +1,59 @@
+@import "est_Tablas.css";
+@import "est_Encuesta.css";
+*{
+	min-width:12px;
+	height: auto;
+	widows:3;
+    orphans:3;
+}
+table, tr, th, td {
+  border: 3px solid black;
+}
+table {
+	page-break-inside:auto
+}
+tr {
+	page-break-inside:avoid;
+	page-break-after:auto
+}
 .bar_nav, .botones, .bar_tem{
 	display:none;
 }
-a{
-	color: black !important;
+.sec_1 figure, .sec_2 figure{
+	display:none;
 }
+form{
+	display:none;
+}
+form#encuesta, form#contacto{
+	display:revert;
+}
+a{
+	color: gray !important;
+	text-decoration: underline !important;
+	widows:3;
+    orphans:3;
+}
+a[href]:after {
+    content: " (" attr(href) ")";
+} 
 p{
 	color: black !important;
+	widows:3;
+    orphans:3;
 }
-#video{
+p#Video{
 	display: none;
+}
+img{
+	max-width:100%;
+}
+i{
+	display:none;
+	widows:3;
+    orphans:3;
+}
+@page {
+  size: auto;/* es el valor por defecto */
+  margin: 10%;
 }

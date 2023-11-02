@@ -307,6 +307,7 @@ main a{
 }
 /*----Colores----*/
  :root {
+	 font-family: "Atkinson Hyperlegible", verdana, sans-serif;
 	--fondo1: #FFDD99;
 	--fondo2: #0030B3;
 	--fondo3: #E6E6E6;

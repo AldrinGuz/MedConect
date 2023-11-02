@@ -212,7 +212,9 @@ footer a:hover{
 main a{
 	color:black;
 }
-
+i{
+	font-style: normal;
+}
 /*---------------------------------*/
 @media (min-width: 250px) {
 	header h1{
