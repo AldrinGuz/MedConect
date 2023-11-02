@@ -11,6 +11,9 @@
  html{
 	background-color: var(--fondo1, white);
 }
+a{
+	color:black;
+}
  body{
 	margin:0.2em;
 	background: var(--fondo5, white );
@@ -19,7 +22,7 @@
 }
 header{
 	border-radius: 1.25em 1.25em 0 0;
-	background-color: var(--fondo2, navy);
+	background-color: #000000;
 	color: var(--color2, white);
 	padding-left:1em;
 	padding-right:1em;
@@ -54,8 +57,8 @@ header h1 {
     margin-right: auto;
 }
 nav.bar_nav a:hover{
-	background-color: var(--fondo5,white);
-    color: var(--color1,black);
+	background-color: black;
+    color: white;
     border-radius: 3em;
     /* font-size: larger; */
 }
@@ -149,17 +152,22 @@ nav.bar_tem ul{
 	list-style-type: none;
 	padding-inline-start: 0px;
 	text-align: center;
+	color: var(--color4);
 }
 nav.bar_tem ul li{
 	display: inline;
+	/* color: var(--color4); */
+	/* background-color: var(--fondo1); */
 }
+
+li {}
 nav.bar_tem ul li a{
 	    padding: 0 0.938em 0 0.938em;
-    text-decoration: none;
-    font-size: 1.25em;
-    background: var(--fondo4, navy);
-    color: white;
-    line-height: 2em;
+	    text-decoration: none;
+	    font-size: 1.25em;
+	    background: var(--fondo1);
+	    color: var(--color4);
+	    line-height: 2em;
 }
 nav.bar_tem ul li a:hover{
 	background-color: white;
@@ -207,8 +215,8 @@ footer a:visited{
 	color: var(--color3, yellow);
 }
 footer a:hover{
-	background-color: var(--color3, azure);
-    color: var(--color1, black);
+	background-color: black;
+    color: white;
 }
 main a{
 	color:black;
@@ -236,8 +244,9 @@ main a{
 	padding: 0 4em;
 	}
 	header h1 {
-    font-size: 7vw;
-	}
+    font-size: 5vw;
+    color: var(--color4);
+ }
 	.menu-icon{
 		padding: unset;
 	}
@@ -278,17 +287,14 @@ main a{
 }
 @media (min-width: 990px) {
 	body{
-		font-size:large;
 	}
 }
 @media (min-width: 1400px) {
 	body{
-		font-size:x-large;
 	}
 }
 @media (min-width: 2000px) {
 	body{
-		font-size:xxx-large;
 	}
 }
 @media screen and (max-width: 630px){
@@ -305,15 +311,66 @@ main a{
     height: auto;
 	}
 }
-/*----Colores----*/
- :root {
+@media (prefers-contrast: more) {
+	body{
 	--fondo1: #FFDD99;
 	--fondo2: #0030B3;
 	--fondo3: #E6E6E6;
-	--fondo4: #042DD2;
+	--fondo4: #0024B3;
 	--fondo5: white;
 	--fondo6: #52BDFF;
 	--color1: black;
 	--color2: white;
 	--color3: yellow;
+	}
 }
+/*----Colores----*/
+:root {
+	--fondo1: #020202;
+	--fondo2: #000000;
+	--fondo3: #ffffff;
+	--fondo4: #ffffff;
+	--fondo5: #ffffff;
+	--fondo6: #ffffff;
+	--color1: black;
+	--color2: black;
+	--color3: #000000;
+--color4: white;
+}
+
+ .toggle {
+	position: fixed;
+	display: inline-block;
+	width: 60px;
+	height: 30px;
+	background-color: #8eeb60;
+	border-radius: 40px;
+	position: relative;
+	overflow: hidden;
+ }
+ .toggle input[type="checkbox"] {
+	display: none;
+ }
+ .toggle-label {
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+	border-radius: 34px;
+ }
+ .toggle-label:before {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: red;
+	border-radius: 34px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all 0.25s ease-in-out;
+ }
+ .toggle-checkbox:checked+.toggle-label:before {
+	transform: translateX(35px);
+ }
+
+
