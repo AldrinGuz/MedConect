@@ -23,9 +23,6 @@ header{
 	color: var(--color2, white);
 	padding-left:1em;
 	padding-right:1em;
-	/*position: fixed;*/
-	/*width: 100%;*/
-	/*z-index: 3;*/
 }
 header{
 	display:flex;
@@ -335,16 +332,8 @@ i{
 }
 
 /*-Menos de 80 caracteres con unidad ch-*/
-
+/*Boton de estilos*/
  .toggle-label{
-	/*position: fixed;
-	display: inline-block;
-	width: 60px;
-	height: 30px;
-	background-color: #8eeb60;
-	border-radius: 40px;
-	position: relative;
-	overflow: hidden;*/
 	background-color: #1a57ff;
     border-radius: 0 2em 2em 0;
     width: 2em;
@@ -354,56 +343,9 @@ i{
     user-select: none;
     margin: -0.2em;
  }
- /*
- .toggle input[type="checkbox"] {
-	display: none;
- }
- .toggle-label {
-	display: block;
-	overflow: hidden;
-	cursor: pointer;
-	border-radius: 34px;
- }
- .toggle-label:before {
-	content: "";
-	display: block;
-	width: 100%;
-	height: 100%;
-	background-color: red;
-	border-radius: 34px;
-	position: absolute;
-	top: 0;
-	left: 0;
-	transition: all 0.25s ease-in-out;
- }
- .toggle-checkbox:checked+.toggle-label:before {
-	transform: translateX(35px);
- }
-<<<<<<< HEAD
-*/
  .botones{
 	position:fixed;
-	/*left:0;*/
-	/*font-size: smaller;*/
  }
-/*
- .botones p{
-	opacity: 0;
- }
-
- .botones:hover p{
-	opacity: 1;
-	transition-duration: 1s;
-	background-color: var(--color3, azure);
-    color: var(--color1, black);
- }
-
- .botones:not(:hover) p{
-	transition-duration: 1s;
- }
-.toggle-checkbox{
-	display:none;
-}*/
 .toggle p{
 	overflow: hidden;
 	width: 100%;
@@ -418,4 +360,3 @@ input#toggle-checkbox:checked ~ .toggle p{
   max-height: 240px;
   width: 100%;
 }
-

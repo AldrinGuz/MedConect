@@ -14,8 +14,8 @@
 		<!--Titulo final-->
 		<!--CSS-->
 		<link id="Base" href="est_Base.css" rel="stylesheet" title="Default Style"/>
-		<link id="Noche" href="est_ModoNoche.css" rel="alternate stylesheet" title="Modo noche" />
-		<link id="Contraste" href="est_AltoContraste.css" rel="alternate stylesheet" title="Alto contraste" />
+		<link href="est_ModoNoche.css" rel="alternate stylesheet" title="Modo noche" />
+		<link href="est_AltoContraste.css" rel="alternate stylesheet" title="Alto contraste" />
 		<link href="est_LetraGrande.css" rel="alternate stylesheet" title="Letra grande" />
 		<link href="est_LetraGrandeAltoContraste.css" rel="alternate stylesheet" title="Alto contraste y letra grande" />
 		<link href="est_Impresion.css" rel="stylesheet" type="text/css" media="print" />
@@ -44,7 +44,7 @@
 				<a href="indices/pag_OtrosMet.html" title="Ir a buscar con otros métodos">Otros métodos</a>
 			</nav>
 		</header>
-<!--Boton--><!--
+<!--Boton-->
 		<div class="botones">
 			<input type="checkbox" id="toggle-checkbox" class="toggle-checkbox">
 			<label for="toggle-checkbox" class="toggle-label">
@@ -53,8 +53,9 @@
 				</span>
 			</label>
 			<div class="toggle">
-				<a href="javascript:void(0);" class="icon" onclick="setAltoContraste()"><p>Modo alto contraste</p></a>
-				
+				<a onclick="setModo('est_Base.css')"><p>Modo Original</p></a>
+				<a onclick="setModo('est_AltoContraste.css')"><p>Modo Alto Contraste</p></a>
+				<a onclick="setModo('est_ModoNoche.css')"><p>Modo Noche</p></a>
 			</div>
 		</div>
 <!--Boton fin-->
