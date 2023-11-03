@@ -13,9 +13,9 @@
 		<link rel=icon href="imagenes/head_logo.png">
 		<!--Titulo final-->
 		<!--CSS-->
-		<link href="est_Base.css" rel="stylesheet" title="Default Style"/>
-		<link href="est_ModoNoche.css" rel="alternate stylesheet" title="Modo noche" />
-		<link href="est_AltoContraste.css" rel="alternate stylesheet" title="Alto contraste" />
+		<link id="Base" href="est_Base.css" rel="stylesheet" title="Default Style"/>
+		<link id="Noche" href="est_ModoNoche.css" rel="alternate stylesheet" title="Modo noche" />
+		<link id="Contraste" href="est_AltoContraste.css" rel="alternate stylesheet" title="Alto contraste" />
 		<link href="est_LetraGrande.css" rel="alternate stylesheet" title="Letra grande" />
 		<link href="est_LetraGrandeAltoContraste.css" rel="alternate stylesheet" title="Alto contraste y letra grande" />
 		<link href="est_Impresion.css" rel="stylesheet" type="text/css" media="print" />
@@ -25,6 +25,9 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 		<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 		<!--Fuentes e iconos final-->
+		<!--Javascript-->
+		<script src="boton.js"></script>
+		<!--Javascript fin-->
 	</head>
 	<body>
 		<header>
@@ -41,7 +44,7 @@
 				<a href="indices/pag_OtrosMet.html" title="Ir a buscar con otros métodos">Otros métodos</a>
 			</nav>
 		</header>
-<!--Boton-->
+<!--Boton--><!--
 		<div class="botones">
 			<input type="checkbox" id="toggle-checkbox" class="toggle-checkbox">
 			<label for="toggle-checkbox" class="toggle-label">
@@ -50,7 +53,8 @@
 				</span>
 			</label>
 			<div class="toggle">
-				<p>Modo alto contraste</p>
+				<a href="javascript:void(0);" class="icon" onclick="setAltoContraste()"><p>Modo alto contraste</p></a>
+				
 			</div>
 		</div>
 <!--Boton fin-->
