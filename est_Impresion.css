@@ -59,4 +59,5 @@ i{
 @page {
   size: auto;/* es el valor por defecto */
   margin: 10%;
+  padding:2cm;
 }
