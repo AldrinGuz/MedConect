@@ -345,6 +345,7 @@ i{
  }
  .botones{
 	position:fixed;
+	left: 0;
  }
 .toggle p{
 	overflow: hidden;
