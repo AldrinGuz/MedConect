@@ -8,15 +8,26 @@
 		<meta name="author" content="Aldrin B Guzmán Figueroa, Ignacio Guarner Sala">
 		<meta name="keywords" content="HTML5, web, encyclopedia">
 		<meta name="description" content="Primera pagina para practicar y aprender sobre HTML5">
+		<!--Titulo-->
 		<title>Página A - Enciclopedia médica | MedConect</title>
 		<link rel=icon href="../imagenes/head_logo.png">
-		<link rel="stylesheet" href="../est_Base.css"/>
-		<link href="../est_ModoNoche.css" rel="alternate stylesheet" title="Modo noche" />
-		<link href="../est_AltoContraste.css" rel="alternate stylesheet" title="Alto contraste" />
-		<link href="../est_LetraGrande.css" rel="alternate stylesheet" title="Letra grande" />
-		<link href="../est_LetraGrandeAltoContraste.css" rel="alternate stylesheet" title="Alto contraste y letra grande" />
-		<link href="../est_Impresion.css" rel="stylesheet" type="text/css" media="print" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!--Titulo final-->
+		<!--CSS-->
+		<link id="Base" rel="stylesheet" href="../css/est_Base.css"/>
+		<link href="../css/est_ModoNoche.css" rel="alternate stylesheet" title="Modo noche" />
+		<link href="../css/est_AltoContraste.css" rel="alternate stylesheet" title="Alto contraste" />
+		<link href="../css/est_LetraGrande.css" rel="alternate stylesheet" title="Letra grande" />
+		<link href="../css/est_LetraGrandeAltoContraste.css" rel="alternate stylesheet" title="Alto contraste y letra grande" />
+		<link href="../css/est_Impresion.css" rel="stylesheet" type="text/css" media="print" />
+		<!--CSS final-->
+		<!--Fuentes e iconos-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/../css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+		<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+		<!--Fuentes e iconos final-->
+		<!--Javascript-->
+		<script src="../JavaScript/boton.js"></script>
+		<!--Javascript fin-->
 	</head>
 	<body>
 		<header>
@@ -33,6 +44,23 @@
 				<a href="../indices/pag_OtrosMet.html" title="Ir a buscar con otros métodos">Otros métodos</a>
 			</nav>
 		</header>
+		<!--Boton-->
+		<div class="botones">
+			<input type="checkbox" id="toggle-checkbox" class="toggle-checkbox">
+			<label for="toggle-checkbox" class="toggle-label">
+				<span class="material-symbols-outlined">
+					settings
+				</span>
+			</label>
+			<div class="toggle">
+				<a onclick="setModo('../css/est_Base.css')"><p>Modo Original</p></a>
+				<a onclick="setModo('../css/est_AltoContraste.css')"><p>Modo Alto Contraste</p></a>
+				<a onclick="setModo('../css/est_ModoNoche.css')"><p>Modo Noche</p></a>
+				<a onclick="setModo('../css/est_LetraGrande.css')"><p>Letra grande</p></a>
+				<a onclick="setModo('../css/est_LetraGrandeAltoContraste.css')"><p>Letra grande + alto contraste</p></a>
+			</div>
+		</div>
+<!--Boton fin-->
 		<nav class="mig_pan"><p>Estas en: </p><a href="../index.html" title="Volver a inicio">Página principal</a> / Índice:A</nav>
 		<main>
 			<h2>Enciclopedia médica</h2>

@@ -13,12 +13,12 @@
 		<link rel=icon href="imagenes/head_logo.png">
 		<!--Titulo final-->
 		<!--CSS-->
-		<link id="Base" href="est_Base.css" rel="stylesheet" title="Default Style"/>
-		<link href="est_ModoNoche.css" rel="alternate stylesheet" title="Modo noche" />
-		<link href="est_AltoContraste.css" rel="alternate stylesheet" title="Alto contraste" />
-		<link href="est_LetraGrande.css" rel="alternate stylesheet" title="Letra grande" />
-		<link href="est_LetraGrandeAltoContraste.css" rel="alternate stylesheet" title="Alto contraste y letra grande" />
-		<link href="est_Impresion.css" rel="stylesheet" type="text/css" media="print" />
+		<link id="Base" href="css/est_Base.css" rel="stylesheet" title="Default Style"/>
+		<link href="css/est_ModoNoche.css" rel="alternate stylesheet" title="Modo noche" />
+		<link href="css/est_AltoContraste.css" rel="alternate stylesheet" title="Alto contraste" />
+		<link href="css/est_LetraGrande.css" rel="alternate stylesheet" title="Letra grande" />
+		<link href="css/est_LetraGrandeAltoContraste.css" rel="alternate stylesheet" title="Alto contraste y letra grande" />
+		<link href="css/est_Impresion.css" rel="stylesheet" type="text/css" media="print" />
 		<!--CSS final-->
 		<!--Fuentes e iconos-->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,7 +26,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 		<!--Fuentes e iconos final-->
 		<!--Javascript-->
-		<script src="boton.js"></script>
+		<script src="JavaScript/boton.js"></script>
 		<!--Javascript fin-->
 	</head>
 	<body>
@@ -53,9 +53,11 @@
 				</span>
 			</label>
 			<div class="toggle">
-				<a onclick="setModo('est_Base.css')"><p>Modo Original</p></a>
-				<a onclick="setModo('est_AltoContraste.css')"><p>Modo Alto Contraste</p></a>
-				<a onclick="setModo('est_ModoNoche.css')"><p>Modo Noche</p></a>
+				<a onclick="setModo('css/est_Base.css')"><p>Modo Original</p></a>
+				<a onclick="setModo('css/est_AltoContraste.css')"><p>Modo Alto Contraste</p></a>
+				<a onclick="setModo('css/est_ModoNoche.css')"><p>Modo Noche</p></a>
+				<a onclick="setModo('css/est_LetraGrande.css')"><p>Letra grande</p></a>
+				<a onclick="setModo('css/est_LetraGrandeAltoContraste.css')"><p>Letra grande + alto contraste</p></a>
 			</div>
 		</div>
 <!--Boton fin-->

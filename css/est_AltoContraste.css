@@ -314,3 +314,32 @@ main a{
 	--color2: white;
 	--color3: yellow;
 }
+/*Boton de estilos*/
+ .toggle-label{
+	background-color: #1a57ff;
+    border-radius: 0 2em 2em 0;
+    width: 2em;
+    cursor: pointer;
+    display: block;
+    padding: 1vw;
+    user-select: none;
+    margin: -0.2em;
+ }
+ .botones{
+	position:fixed;
+	left: 0;
+ }
+.toggle p{
+	overflow: hidden;
+	width: 100%;
+	clear: both;
+	max-height: 0;
+	background-color:var(--fondo6, blue);
+}
+input#toggle-checkbox{
+	visibility:hidden;
+}
+input#toggle-checkbox:checked ~ .toggle p{
+  max-height: 240px;
+  width: 100%;
+}

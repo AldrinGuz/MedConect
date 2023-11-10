@@ -331,38 +331,33 @@ main a{
 	--color3: yellow;
 }
 
- .toggle {
-	position: fixed;
-	display: inline-block;
-	width: 60px;
-	height: 30px;
-	background-color: #8eeb60;
-	border-radius: 40px;
-	position: relative;
-	overflow: hidden;
+/*Boton de estilos*/
+ .toggle-label{
+	background-color: #1a57ff;
+    border-radius: 0 2em 2em 0;
+    width: 2em;
+    cursor: pointer;
+    display: block;
+    padding: 1vw;
+    user-select: none;
+    margin: -0.2em;
  }
- .toggle input[type="checkbox"] {
-	display: none;
- }
- .toggle-label {
-	display: block;
-	overflow: hidden;
-	cursor: pointer;
-	border-radius: 34px;
- }
- .toggle-label:before {
-	content: "";
-	display: block;
-	width: 100%;
-	height: 100%;
-	background-color: red;
-	border-radius: 34px;
-	position: absolute;
-	top: 0;
+ .botones{
+	position:fixed;
 	left: 0;
-	transition: all 0.25s ease-in-out;
  }
- .toggle-checkbox:checked+.toggle-label:before {
-	transform: translateX(35px);
- }
+.toggle p{
+	overflow: hidden;
+	width: 100%;
+	clear: both;
+	max-height: 0;
+	background-color:var(--fondo6, blue);
+}
+input#toggle-checkbox{
+	visibility:hidden;
+}
+input#toggle-checkbox:checked ~ .toggle p{
+  max-height: 240px;
+  width: 100%;
+}
 
