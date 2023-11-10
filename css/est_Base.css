@@ -274,21 +274,7 @@ i{
 	border-right: 1px solid black;
 	}
 }
-@media (min-width: 990px) {
-	body{
 
-	}
-}
-@media (min-width: 1400px) {
-	body{
-
-	}
-}
-@media (min-width: 2000px) {
-	body{
-
-	}
-}
 @media screen and (max-width: 630px){
 	iframe, img {
     max-width: 300px;

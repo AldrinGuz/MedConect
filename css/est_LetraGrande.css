@@ -276,6 +276,7 @@ main a{
 	border-right: 1px solid black;
 	}
 }
+/*Letra mas grande media queries*/
 @media (min-width: 990px) {
 	body{
 		font-size:large;
