@@ -1,0 +1,336 @@
+1
+00:00:00,840 --> 00:00:05,920
+Hola a todos mi nombre es Ignacio Guarner
+
+2
+00:00:03,080 --> 00:00:08,240
+Sala y grabo este vídeo en representación
+
+3
+00:00:05,920 --> 00:00:11,120
+de MedConect, yo soy un coautor de esta
+
+4
+00:00:08,240 --> 00:00:13,280
+página web junto con Aldrin Guzman Figueroa y os
+
+5
+00:00:11,120 --> 00:00:15,200
+quiero enseñar nuestra página web. Esta
+
+6
+00:00:13,280 --> 00:00:16,520
+página es una enciclopedia médica como
+
+7
+00:00:15,200 --> 00:00:19,320
+veremos más
+
+8
+00:00:16,520 --> 00:00:21,680
+adelante que aún está por terminar, pero
+
+9
+00:00:19,320 --> 00:00:24,039
+que tenemos para enseñaros ya. Primero
+
+10
+00:00:21,680 --> 00:00:25,840
+este esta es nuestra página de inicio, aqui
+
+11
+00:00:24,039 --> 00:00:28,960
+tenemos la cabecera, que
+
+12
+00:00:25,840 --> 00:00:31,960
+tenemos un enlace a la Universidad de
+
+13
+00:00:28,960 --> 00:00:33,719
+Alicante, aquí está para volver al inicio,
+
+14
+00:00:31,960 --> 00:00:34,960
+un buscado que veremos más adelante y
+
+15
+00:00:33,719 --> 00:00:37,160
+otros métodos que también veremos más
+
+16
+00:00:34,960 --> 00:00:39,280
+adelante. En este índice lo que
+
+17
+00:00:37,160 --> 00:00:41,280
+principalmente destaca es nuestra
+
+18
+00:00:39,280 --> 00:00:44,239
+enciclopedia médica con los artículos
+
+19
+00:00:41,280 --> 00:00:46,320
+organizados de forma alfabética y temas
+
+20
+00:00:44,239 --> 00:00:48,600
+destacados que simplemente son enlaces a
+
+21
+00:00:46,320 --> 00:00:51,520
+artículos de interés. Vamos a entrar por
+
+22
+00:00:48,600 --> 00:00:52,239
+ejemplo en la C, y en la C podemos entrar
+
+23
+00:00:51,520 --> 00:00:54,760
+en
+
+24
+00:00:52,239 --> 00:00:56,920
+Coronavirus. Aquí tenemos una pequeña
+
+25
+00:00:54,760 --> 00:01:00,559
+tabla de contenidos, todos los articulos
+
+26
+00:00:56,920 --> 00:01:03,239
+tienen una, y el artículo en sí,
+
+27
+00:01:00,559 --> 00:01:05,760
+con un vídeo y en este tenemos un mapa
+
+28
+00:01:03,239 --> 00:01:07,880
+interactivo. Ahora mismo no lo voy a
+
+29
+00:01:05,760 --> 00:01:09,560
+clicar Porque muchos de ellos dan error
+
+30
+00:01:07,880 --> 00:01:12,159
+pero se puede clicar en cada una de las
+
+31
+00:01:09,560 --> 00:01:14,880
+partes y te lleva a diferentes
+
+32
+00:01:12,159 --> 00:01:17,799
+sitios. Vamos a volver al
+
+33
+00:01:14,880 --> 00:01:20,600
+inicio y ahora vamos a ir al buscador. El
+
+34
+00:01:17,799 --> 00:01:22,920
+buscador es muy simple, primero dices qué
+
+35
+00:01:20,600 --> 00:01:24,680
+categoría quieres buscar, luego lo que
+
+36
+00:01:22,920 --> 00:01:27,040
+quieres buscar, si quieres que esta
+
+37
+00:01:24,680 --> 00:01:29,960
+búsqueda se realice con un and, un or o
+
+38
+00:01:27,040 --> 00:01:32,119
+un not y finalmente marcas la casilla para
+
+39
+00:01:29,960 --> 00:01:33,720
+indicar que vas a buscar eso. Ahora mismo
+
+40
+00:01:32,119 --> 00:01:35,000
+no funciona el buscador, devuelve
+
+41
+00:01:33,720 --> 00:01:38,240
+Busqueda no encontrada pero conseguiremos
+
+42
+00:01:35,000 --> 00:01:39,880
+que funcione. Luego vamos a otros métodos
+
+43
+00:01:38,240 --> 00:01:41,799
+y aquí tenemos una pequeña página sobre
+
+44
+00:01:39,880 --> 00:01:44,680
+el esqueleto humano, este mapa también es
+
+45
+00:01:41,799 --> 00:01:46,840
+interactivo, esta vez sí que linquea a la
+
+46
+00:01:44,680 --> 00:01:49,560
+Wikipedia sobre esa respectiva parte del
+
+47
+00:01:46,840 --> 00:01:52,240
+cuerpo, y tiene una pequeña tabla con los
+
+48
+00:01:49,560 --> 00:01:55,600
+huesos del cuerpo. Volvemos a la página
+
+49
+00:01:52,240 --> 00:01:57,360
+principal, tenemos artículos destacados y
+
+50
+00:01:55,600 --> 00:01:58,759
+ahora vamos a ver nuestra página para
+
+51
+00:01:57,360 --> 00:02:00,640
+enviar un mensaje para poder
+
+52
+00:01:58,759 --> 00:02:03,079
+contactarnos.
+
+53
+00:02:00,640 --> 00:02:05,399
+Se envía un asunto, el mensaje, en qué
+
+54
+00:02:03,079 --> 00:02:07,439
+calidad se envía este mensaje, la fecha
+
+55
+00:02:05,399 --> 00:02:09,640
+de nacimiento, sexo, correo electrónico y
+
+56
+00:02:07,439 --> 00:02:11,680
+si quiere recibir más información. Como
+
+57
+00:02:09,640 --> 00:02:13,520
+se puede ver asunto y escriba su mensaje
+
+58
+00:02:11,680 --> 00:02:15,959
+están marcados con un asterisco porque son
+
+59
+00:02:13,520 --> 00:02:19,040
+campos obligatorios. Si yo intento enviar
+
+60
+00:02:15,959 --> 00:02:21,200
+un mensaje sin escribir nada ahí
+
+61
+00:02:19,040 --> 00:02:25,200
+marca un error, no
+
+62
+00:02:21,200 --> 00:02:26,959
+deja. Luego eenemos también una
+
+63
+00:02:25,200 --> 00:02:28,760
+pequeña encuesta que es parecida a lo
+
+64
+00:02:26,959 --> 00:02:31,280
+anterior.
+
+65
+00:02:28,760 --> 00:02:32,800
+Marcas fecha de nacimiento, edad, una
+
+66
+00:02:31,280 --> 00:02:35,080
+pequeña prueba de
+
+67
+00:02:32,800 --> 00:02:37,319
+cognicidad, el color favorito y
+
+68
+00:02:35,080 --> 00:02:39,200
+satisfacción. De nuevo aquí se pueden ver
+
+69
+00:02:37,319 --> 00:02:41,640
+campos
+
+70
+00:02:39,200 --> 00:02:44,200
+obligatorios. Luego tenemos declaración
+
+71
+00:02:41,640 --> 00:02:45,319
+de accesibilidad, tenemos la declaración
+
+72
+00:02:44,200 --> 00:02:47,159
+de accesibilidad como he dicho antes,
+
+73
+00:02:45,319 --> 00:02:49,480
+algunos ejemplos de accesibilidad en
+
+74
+00:02:47,159 --> 00:02:50,800
+documentos, que es la accesibilidad y
+
+75
+00:02:49,480 --> 00:02:52,800
+básicamente nos comprometemos que
+
+76
+00:02:50,800 --> 00:02:54,280
+nuestra página web intente presentar
+
+77
+00:02:52,800 --> 00:02:57,239
+siempre la mayor mayor cantidad de
+
+78
+00:02:54,280 --> 00:02:58,680
+accesibilidad posible. Finalmente podemos
+
+79
+00:02:57,239 --> 00:03:01,599
+ver que tenemos un pequeño mapa de
+
+80
+00:02:58,680 --> 00:03:04,280
+nuestro sitio web con todo lo relevante
+
+81
+00:03:01,599 --> 00:03:06,239
+para acceder al índice, artículos con la
+
+82
+00:03:04,280 --> 00:03:09,400
+a, artículos con la c, otros métodos, los
+
+83
+00:03:06,239 --> 00:03:13,319
+formularios y la accesibilidad. Y eso
+
+84
+00:03:09,400 --> 00:03:13,319
+sería todo, muchas gracias por ver.
+
