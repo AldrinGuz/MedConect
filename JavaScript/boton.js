@@ -20,7 +20,7 @@ function openVideo(evt, cityName) {
 }
 function desplegar(id){
 
-    let contenido= document.getElementsByClassName(id);
+    let contenido= document.getElementById(id);
     if(contenido.style.display=="none"){
         contenido.style.display = "block";
     }

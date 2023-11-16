@@ -44,6 +44,10 @@
   border-top: none;
 }
 
+p#transcripcion1, p#transcripcion2{
+	display: none;
+}
+
 .tabcontent h3{
 	cursor: pointer;
 }
