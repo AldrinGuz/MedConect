@@ -1,0 +1,336 @@
+1
+00:00:00,840 --> 00:00:05,920
+Hello everyone, my name is Ignacio Guarner
+
+2
+00:00:03,080 --> 00:00:08,240
+Sala and i am recording this video in representation
+
+3
+00:00:05,920 --> 00:00:11,120
+of MedConect, I am a co-author of this
+
+4
+00:00:08,240 --> 00:00:13,280
+web page alognside Aldrin Guzman Figueroa and we 
+
+5
+00:00:11,120 --> 00:00:15,200
+want to share our web page. This
+
+6
+00:00:13,280 --> 00:00:16,520
+page is a medical encyclopedia as we will
+
+7
+00:00:15,200 --> 00:00:19,320
+see
+
+8
+00:00:16,520 --> 00:00:21,680
+later. It is still unfinished but
+
+9
+00:00:19,320 --> 00:00:24,039
+already have something of value to show. First,
+
+10
+00:00:21,680 --> 00:00:25,840
+this is our index page, where we
+
+11
+00:00:24,039 --> 00:00:28,960
+have a header. Here we 
+
+12
+00:00:25,840 --> 00:00:31,960
+have a link to the University of
+
+13
+00:00:28,960 --> 00:00:33,719
+Alicante, here is for returning to the index,
+
+14
+00:00:31,960 --> 00:00:34,960
+a browser that we will see later and
+
+15
+00:00:33,719 --> 00:00:37,160
+other methods which we will also see
+
+16
+00:00:34,960 --> 00:00:39,280
+later. This is the index, here
+
+17
+00:00:37,160 --> 00:00:41,280
+the most important part is the 
+
+18
+00:00:39,280 --> 00:00:44,239
+medical encyclopedia, where the articles are 
+
+19
+00:00:41,280 --> 00:00:46,320
+organized alphabetically and the featured 
+
+20
+00:00:44,239 --> 00:00:48,600
+articles section, which shows articles
+
+21
+00:00:46,320 --> 00:00:51,520
+that may be of interest. Lets enter for
+
+22
+00:00:48,600 --> 00:00:52,239
+example in the C section, and in the C page 
+
+23
+00:00:51,520 --> 00:00:54,760
+we can enter in 
+
+24
+00:00:52,239 --> 00:00:56,920
+Coronavirus. Here we have a
+
+25
+00:00:54,760 --> 00:01:00,559
+table of contents, all the articles
+
+26
+00:00:56,920 --> 00:01:03,239
+have one. Here we have tje article itself,
+
+27
+00:01:00,559 --> 00:01:05,760
+a video and an interactive
+
+28
+00:01:03,239 --> 00:01:07,880
+map. I'm not going to use it right now
+
+29
+00:01:05,760 --> 00:01:09,560
+because all of the links are broken, but
+
+30
+00:01:07,880 --> 00:01:12,159
+you can click in the different
+
+31
+00:01:09,560 --> 00:01:14,880
+parts and it redirects to the different
+
+32
+00:01:12,159 --> 00:01:17,799
+countries. Let's return to 
+
+33
+00:01:14,880 --> 00:01:20,600
+index and let's see the browser. It
+
+34
+00:01:17,799 --> 00:01:22,920
+is very simple, first tou select the
+
+35
+00:01:20,600 --> 00:01:24,680
+category, the thing that you want
+
+36
+00:01:22,920 --> 00:01:27,040
+to search, if you want it to be 
+
+37
+00:01:24,680 --> 00:01:29,960
+searched ad an "and", an "or" or 
+
+38
+00:01:27,040 --> 00:01:32,119
+a "not" and finally you check this to
+
+39
+00:01:29,960 --> 00:01:33,720
+confirm the search. The browser
+
+40
+00:01:32,119 --> 00:01:35,000
+doesn't work right now, it send you to 
+
+41
+00:01:33,720 --> 00:01:38,240
+Search not found, but we will make 
+
+42
+00:01:35,000 --> 00:01:39,880
+it work. Let's go see Other methods, and
+
+43
+00:01:38,240 --> 00:01:41,799
+here we have a small page about the
+
+44
+00:01:39,880 --> 00:01:44,680
+human esqueleton, another interactive
+
+45
+00:01:41,799 --> 00:01:46,840
+map, this one dows work and it sends you to 
+
+46
+00:01:44,680 --> 00:01:49,560
+the Wikipedia article about the specific bone you 
+
+47
+00:01:46,840 --> 00:01:52,240
+choose and a table with all of the bones of the
+
+48
+00:01:49,560 --> 00:01:55,600
+human esqueleton. Let's return to the 
+
+49
+00:01:52,240 --> 00:01:57,360
+index. We have the featured articles section,
+
+50
+00:01:55,600 --> 00:01:58,759
+and let's see the page to sends us
+
+51
+00:01:57,360 --> 00:02:00,640
+a message to cantact 
+
+52
+00:01:58,759 --> 00:02:03,079
+us. 
+
+53
+00:02:00,640 --> 00:02:05,399
+You send a subject, your role,
+
+54
+00:02:03,079 --> 00:02:07,439
+the date of
+
+55
+00:02:05,399 --> 00:02:09,640
+birth, your sex, your email addres and
+
+56
+00:02:07,439 --> 00:02:11,680
+you check if you want to recieve more information. 
+
+57
+00:02:09,640 --> 00:02:13,520
+As you can see the subject and message sections 
+
+58
+00:02:11,680 --> 00:02:15,959
+have an asterisk. This is you signal that these 
+
+59
+00:02:13,520 --> 00:02:19,040
+are compulsory sections. If you try to send
+
+60
+00:02:15,959 --> 00:02:21,200
+a message without writing anything here it
+
+61
+00:02:19,040 --> 00:02:25,200
+laerts you with an error.
+
+62
+00:02:21,200 --> 00:02:26,959
+We also have a small quiz
+
+63
+00:02:25,200 --> 00:02:28,760
+wich is similar to the former
+
+64
+00:02:26,959 --> 00:02:31,280
+page.
+
+65
+00:02:28,760 --> 00:02:32,800
+You select your birth date, your age, a 
+
+66
+00:02:31,280 --> 00:02:35,080
+small cognicity 
+
+67
+00:02:32,800 --> 00:02:37,319
+test, your favourite color and your grade
+
+68
+00:02:35,080 --> 00:02:39,200
+of satisfaction. Again we have
+
+69
+00:02:37,319 --> 00:02:41,640
+compulsory
+
+70
+00:02:39,200 --> 00:02:44,200
+sections. We also have our accesibility
+
+71
+00:02:41,640 --> 00:02:45,319
+page, were we have our declaration of
+
+72
+00:02:44,200 --> 00:02:47,159
+accesibility,
+
+73
+00:02:45,319 --> 00:02:49,480
+some examples of accesibility in 
+
+74
+00:02:47,159 --> 00:02:50,800
+documents, what is accesibility and that 
+
+75
+00:02:49,480 --> 00:02:52,800
+we basically have a compromise to 
+
+76
+00:02:50,800 --> 00:02:54,280
+make our web page as
+
+77
+00:02:52,800 --> 00:02:57,239
+accesible as 
+
+78
+00:02:54,280 --> 00:02:58,680
+possible. FInally we have 
+
+79
+00:02:57,239 --> 00:03:01,599
+a table of contents for our whole
+
+80
+00:02:58,680 --> 00:03:04,280
+web page, which has all the relevant sections and links.
+
+81
+00:03:01,599 --> 00:03:06,239
+YOu can access the index, articles with 
+
+82
+00:03:04,280 --> 00:03:09,400
+a, articles with c, other methods, our
+
+83
+00:03:06,239 --> 00:03:13,319
+forms and the accesibility page. This
+
+84
+00:03:09,400 --> 00:03:13,319
+ia all and thank you for watching.
+
