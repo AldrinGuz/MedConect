@@ -213,6 +213,14 @@ footer a:hover{
 main a{
 	color:black;
 }
+i{
+	font-style: normal;
+}
+video{
+	max-width: 500px;
+    width: 100%;
+    height: auto;
+}
 
 /*---------------------------------*/
 @media (min-width: 250px) {
@@ -341,5 +349,9 @@ input#toggle-checkbox{
 }
 input#toggle-checkbox:checked ~ .toggle p{
   max-height: 240px;
+  max-width:240px;/*Esto*/
   width: 100%;
+}
+.toggle a{
+	cursor:pointer;
 }
