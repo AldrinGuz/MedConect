@@ -1,0 +1,11 @@
+Pagina web:
+https://aldringuz.github.io/MedConect/
+
+Youtube:
+https://www.youtube.com/watch?v=4_WlwEZHiNc
+
+Amara
+https://amara.org/videos/KKoBnM7ZLI8i/info/medconect/
+
+Ambos videos se encuentra en la pagina pag_Demo.html
+https://aldringuz.github.io/MedConect/indices/pag_Demo.html
