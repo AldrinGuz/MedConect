@@ -221,6 +221,11 @@ video{
     width: 100%;
     height: auto;
 }
+/*----wordpress----*/
+p#wordpress {
+    display: none;
+}
+/*----fin del wordpress----*/
 
 /*---------------------------------*/
 @media (min-width: 250px) {
@@ -283,6 +288,26 @@ video{
 	section.sec_1{
 	border-right: 1px solid black;
 	}
+	/*----wordpress----*/
+	aside{
+		padding: 1em;
+		display: grid;
+		grid-template-areas: 'aside-block-1 asideblock-2';
+		grid-template-columns: 50% auto;
+	}
+	aside p iframe{
+		width: 100%;
+		height: auto;
+	}
+	aside.aside-block-1 {
+		display: block;
+		padding: 1em;
+	}
+	aside.aside-block-2 {
+		padding: 0.5em;
+		display: block;
+	}
+	/*----fin del wordpress----*/
 }
 @media (min-width: 990px) {
 	body{
